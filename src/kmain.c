@@ -48,9 +48,13 @@ void pcboot_main(void)
 	/* initialize the timer */
 	init_timer();
 
+	/*test intr*/
+	register__devzero_intr();
+	register_stack_intr();
+
 	enable_intr();
 
-	printf("PCBoot kernel initialized\n");
+	printf("jeff PCBoot kernel initialized\n");
 
 	for(;;) {
 		int c;
@@ -66,6 +70,13 @@ void pcboot_main(void)
 
 			case KB_F2:
 				vbetest();
+				break;
+			case KB_F3:
+				devzero();
+				break;
+			case KB_F4:
+				setup_selectors(selector(SEGM_UCODE, 3), selector(SEGM_UDATA, 3));
+				stackerr();
 				break;
 			}
 			if(isprint(c)) {

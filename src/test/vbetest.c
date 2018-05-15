@@ -31,6 +31,53 @@ static uint16_t cursor[] = {
 	0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xffff, 0xffff, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000
 };
 
+#ifndef NULL
+#define NULL (void*)0
+#endif
+
+static void stackerr_handler(void)
+{
+	printf("occur stack error %s\n",__func__);
+}
+
+static void devzero_err_handler(void)
+{
+	printf("occur dev zero error %s\n",__func__);
+}
+
+
+int register_stack_intr(void)
+{	
+	interrupt(13,stackerr_handler);
+	return 0;
+}
+
+int register__devzero_intr(void)
+{	
+	interrupt(0,devzero_err_handler);
+	return 0;
+}
+
+int stackerr(void)
+{
+	char *p = NULL;
+
+	*p = 1;
+	printf("jeff display %s\n",__func__);
+	return 0;
+}
+
+int devzero(void)
+{
+	int i = 10;
+	int j;
+	
+	j = i / 0;
+	printf("jeff display %s\n",__func__);
+	return 0;
+}
+
+
 int vbetest(void)
 {
 	int i, j, nmodes, mx, my;

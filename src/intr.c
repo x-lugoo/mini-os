@@ -134,9 +134,9 @@ void dispatch_intr(struct intr_frame frm)
 	if(intr_func[frm.inum]) {
 		intr_func[frm.inum](frm.inum);
 	} else {
-		if(frm.inum < 32) {
-			panic("unhandled exception %d, error code: %d\n", frm.inum, frm.err);
-		}
+	//	if(frm.inum < 32) {
+	//		panic("unhandled exception %d, error code: %d\n", frm.inum, frm.err);
+	//	}
 		printf("unhandled interrupt %d\n", frm.inum);
 	}
 

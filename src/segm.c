@@ -68,6 +68,7 @@ void init_segm(void)
 	set_gdt((uint32_t)gdt, sizeof gdt - 1);
 
 	setup_selectors(selector(SEGM_KCODE, 0), selector(SEGM_KDATA, 0));
+	//setup_selectors(selector(SEGM_UCODE, 3), selector(SEGM_UDATA, 3));
 }
 
 /* constructs a GDT selector based on index and priviledge level */

@@ -1,0 +1,1275 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_BUSID	src/pci.c	31;"	d	file:
+ADDR_DEVID	src/pci.c	32;"	d	file:
+ADDR_ENABLE	src/pci.c	30;"	d	file:
+ADDR_FUNC	src/pci.c	33;"	d	file:
+ADDR_TO_PAGE	src/mem.h	21;"	d
+ADVANCE	src/keyb.c	48;"	d	file:
+ASFLAGS	Makefile	/^ASFLAGS = $(asarch) -march=i386 $(dbg) -nostdinc -fno-builtin $(inc)$/;"	m
+ASM	src/intr_asm.S	/^#define ASM$/;"	d
+ASMOPS_H_	src/asmops.h	19;"	d
+ASSERT_H_	src/libc/assert.h	19;"	d
+AUX_CMD_DEFAULTS	src/kbregs.h	62;"	d
+AUX_CMD_ENABLE	src/kbregs.h	61;"	d
+AUX_CMD_READ_MOUSE	src/kbregs.h	59;"	d
+AUX_CMD_REMOTE_MODE	src/kbregs.h	60;"	d
+AUX_CMD_STREAM_MODE	src/kbregs.h	58;"	d
+AUX_PKT0_ALWAYS1	src/kbregs.h	67;"	d
+AUX_PKT0_BUTTON_BITS	src/kbregs.h	74;"	d
+AUX_PKT0_LEFTBN	src/kbregs.h	64;"	d
+AUX_PKT0_MIDDLEBN	src/kbregs.h	66;"	d
+AUX_PKT0_OVF_BITS	src/kbregs.h	73;"	d
+AUX_PKT0_RIGHTBN	src/kbregs.h	65;"	d
+AUX_PKT0_XOVF	src/kbregs.h	70;"	d
+AUX_PKT0_XSIGN	src/kbregs.h	68;"	d
+AUX_PKT0_YOVF	src/kbregs.h	71;"	d
+AUX_PKT0_YSIGN	src/kbregs.h	69;"	d
+BEMPTY	src/serial.c	122;"	d	file:
+BIT_ACCESSED	src/segm.c	24;"	d	file:
+BIT_BIG	src/segm.c	36;"	d	file:
+BIT_BUSY	src/segm.c	33;"	d	file:
+BIT_CODE	src/segm.c	29;"	d	file:
+BIT_CONFORMING	src/segm.c	28;"	d	file:
+BIT_DEFAULT	src/segm.c	37;"	d	file:
+BIT_EXP_DOWN	src/segm.c	27;"	d	file:
+BIT_GRAN	src/segm.c	38;"	d	file:
+BIT_NOSYS	src/segm.c	30;"	d	file:
+BIT_PRESENT	src/segm.c	31;"	d	file:
+BIT_RD	src/segm.c	26;"	d	file:
+BIT_WR	src/segm.c	25;"	d	file:
+BM_BIT	src/mem.c	28;"	d	file:
+BM_IDX	src/mem.c	27;"	d	file:
+BNEXT	src/serial.c	121;"	d	file:
+BUF	src/libc/stdio.c	131;"	d	file:
+BUFSZ	src/keyb.c	47;"	d	file:
+BYTES_TO_PAGES	src/mem.h	25;"	d
+CALLER_EIP	src/asmops.h	27;"	d
+CFLAGS	Makefile	/^CFLAGS = $(ccarch) -march=i386 $(warn) $(opt) $(dbg) $(gccopt) $(inc) $(def)$/;"	m
+CMD_ACCESS_BOTH	src/timer.c	45;"	d	file:
+CMD_ACCESS_HIGH	src/timer.c	44;"	d	file:
+CMD_ACCESS_LOW	src/timer.c	43;"	d	file:
+CMD_CHAN0	src/timer.c	37;"	d	file:
+CMD_CHAN1	src/timer.c	38;"	d	file:
+CMD_CHAN2	src/timer.c	39;"	d	file:
+CMD_LATCH	src/timer.c	42;"	d	file:
+CMD_MODE_BCD	src/timer.c	55;"	d	file:
+CMD_MODE_BIN	src/timer.c	54;"	d	file:
+CMD_OP_HW_STROBE	src/timer.c	52;"	d	file:
+CMD_OP_INT_TERM	src/timer.c	47;"	d	file:
+CMD_OP_ONESHOT	src/timer.c	48;"	d	file:
+CMD_OP_RATE	src/timer.c	49;"	d	file:
+CMD_OP_SOFT_STROBE	src/timer.c	51;"	d	file:
+CMD_OP_SQWAVE	src/timer.c	50;"	d	file:
+CMD_RDBACK	src/timer.c	40;"	d	file:
+COM_FMT_8N1	src/serial.c	110;"	d	file:
+COM_FMT_8N2	src/serial.c	111;"	d	file:
+CONFIG_ADDR_PORT	src/pci.c	27;"	d	file:
+CONFIG_DATA_PORT	src/pci.c	28;"	d	file:
+CONTTY_H_	src/contty.h	19;"	d
+CON_SERIAL	src/config.h	25;"	d
+CON_TEXTMODE	src/config.h	24;"	d
+CRTC_ADDR	src/contty.c	32;"	d	file:
+CRTC_DATA	src/contty.c	33;"	d	file:
+CRTC_REG_CUREND	src/contty.c	36;"	d	file:
+CRTC_REG_CURLOC_H	src/contty.c	39;"	d	file:
+CRTC_REG_CURLOC_L	src/contty.c	40;"	d	file:
+CRTC_REG_CURSTART	src/contty.c	35;"	d	file:
+CRTC_REG_START_H	src/contty.c	37;"	d	file:
+CRTC_REG_START_L	src/contty.c	38;"	d	file:
+CTYPE_H_	src/libc/ctype.h	19;"	d
+CURSOR_XSZ	src/test/vbetest.c	13;"	d	file:
+CURSOR_YSZ	src/test/vbetest.c	14;"	d	file:
+DESC_H_	src/desc.h	19;"	d
+DESC_PTR	src/libc/malloc.c	30;"	d	file:
+DIV_ROUND	src/timer.c	28;"	d	file:
+EAGAIN	src/libc/errno.h	22;"	d
+EBUG	src/libc/errno.h	34;"	d
+EBUSY	src/libc/errno.h	25;"	d
+ECHILD	src/libc/errno.h	24;"	d
+EFOO	src/libc/errno.h	21;"	d
+EINVAL	src/libc/errno.h	23;"	d
+EIO	src/libc/errno.h	27;"	d
+ENAMETOOLONG	src/libc/errno.h	29;"	d
+ENOENT	src/libc/errno.h	28;"	d
+ENOMEM	src/libc/errno.h	26;"	d
+ENOSPC	src/libc/errno.h	30;"	d
+ENOTDIR	src/libc/errno.h	32;"	d
+EPERM	src/libc/errno.h	31;"	d
+ERRNO_H_	src/libc/errno.h	19;"	d
+FIFO_DMA	src/serial.c	49;"	d	file:
+FIFO_ENABLE	src/serial.c	46;"	d	file:
+FIFO_RECV_CLEAR	src/serial.c	47;"	d	file:
+FIFO_SEND_CLEAR	src/serial.c	48;"	d	file:
+FIFO_TRIG_14	src/serial.c	52;"	d	file:
+FIFO_TRIG_4	src/serial.c	50;"	d	file:
+FIFO_TRIG_8	src/serial.c	51;"	d	file:
+FIRST_POOL_POW2	src/libc/malloc.c	34;"	d	file:
+FLAGS_AUXC	src/int86.h	32;"	d
+FLAGS_CARRY	src/int86.h	30;"	d
+FLAGS_DIR	src/int86.h	37;"	d
+FLAGS_GIOPL	src/int86.h	40;"	d
+FLAGS_INTR	src/int86.h	36;"	d
+FLAGS_NTASK	src/int86.h	41;"	d
+FLAGS_OVF	src/int86.h	38;"	d
+FLAGS_PARITY	src/int86.h	31;"	d
+FLAGS_SIGN	src/int86.h	34;"	d
+FLAGS_SIOPL	src/int86.h	39;"	d
+FLAGS_TRAP	src/int86.h	35;"	d
+FLAGS_ZERO	src/int86.h	33;"	d
+FREE	src/mem.c	24;"	d	file:
+GATE_DEFAULT	src/intr.c	31;"	d	file:
+GATE_INTR	src/intr.c	29;"	d	file:
+GATE_PRESENT	src/intr.c	32;"	d	file:
+GATE_TASK	src/intr.c	28;"	d	file:
+GATE_TRAP	src/intr.c	30;"	d	file:
+ICW1_ICW4_NEEDED	src/intr.c	41;"	d	file:
+ICW1_INIT	src/intr.c	45;"	d	file:
+ICW1_INTERVAL4	src/intr.c	43;"	d	file:
+ICW1_LEVEL	src/intr.c	44;"	d	file:
+ICW1_SINGLE	src/intr.c	42;"	d	file:
+ICW4_8086	src/intr.c	47;"	d	file:
+ICW4_AUTO_EOI	src/intr.c	48;"	d	file:
+ICW4_BUF_MASTER	src/intr.c	50;"	d	file:
+ICW4_BUF_SLAVE	src/intr.c	49;"	d	file:
+ICW4_SPECIAL	src/intr.c	51;"	d	file:
+IID_DELTA	src/serial.c	63;"	d	file:
+IID_FIFO	src/serial.c	66;"	d	file:
+IID_FIFO_EN	src/serial.c	59;"	d	file:
+IID_ID0	src/serial.c	56;"	d	file:
+IID_ID1	src/serial.c	57;"	d	file:
+IID_ID2	src/serial.c	58;"	d	file:
+IID_PENDING	src/serial.c	55;"	d	file:
+IID_RECV	src/serial.c	65;"	d	file:
+IID_SEND	src/serial.c	64;"	d	file:
+IID_SOURCE	src/serial.c	61;"	d	file:
+IID_STATUS	src/serial.c	67;"	d	file:
+INT86_H_	src/int86.h	19;"	d
+INTR_DELTA	src/serial.c	43;"	d	file:
+INTR_ENTRY_EC	src/intrtab.h	20;"	d
+INTR_ENTRY_EC	src/intrtab.h	24;"	d
+INTR_ENTRY_NOEC	src/intrtab.h	21;"	d
+INTR_ENTRY_NOEC	src/intrtab.h	27;"	d
+INTR_H_	src/intr.h	19;"	d
+INTR_LSTAT	src/serial.c	42;"	d	file:
+INTR_RECV	src/serial.c	40;"	d	file:
+INTR_SEND	src/serial.c	41;"	d	file:
+INTR_TO_IRQ	src/intr.h	28;"	d
+INTTYPES_H_	src/libc/inttypes.h	19;"	d
+IRQ_OFFSET	src/intr.h	25;"	d
+IRQ_TO_INTR	src/intr.h	27;"	d
+IS_CONV	src/libc/stdio.c	55;"	d	file:
+IS_FREE	src/mem.c	30;"	d	file:
+IS_IRQ	src/intr.h	30;"	d
+IS_TRAP	src/intr.c	182;"	d	file:
+KBREGS_H_	src/kbregs.h	19;"	d
+KB_ACK	src/kbregs.h	28;"	d
+KB_ALT	src/keyb.h	22;"	d
+KB_ANY	src/keyb.h	21;"	d
+KB_BACKSP	src/keyb.h	/^	KB_BACKSP = 127,$/;"	e	enum:__anon3
+KB_CAPSLK	src/keyb.h	/^	KB_CAPSLK, KB_NUMLK, KB_SCRLK, KB_SYSRQ$/;"	e	enum:__anon3
+KB_CCB_AUX_DISABLE	src/kbregs.h	54;"	d
+KB_CCB_AUX_INTREN	src/kbregs.h	51;"	d
+KB_CCB_KB_DISABLE	src/kbregs.h	53;"	d
+KB_CCB_KB_INTREN	src/kbregs.h	50;"	d
+KB_CCB_KB_XLAT	src/kbregs.h	55;"	d
+KB_CCB_SYSFLAG	src/kbregs.h	52;"	d
+KB_CMD_AUX_ENABLE	src/kbregs.h	43;"	d
+KB_CMD_GET_CMDBYTE	src/kbregs.h	41;"	d
+KB_CMD_PORT	src/kbregs.h	25;"	d
+KB_CMD_PSAUX	src/kbregs.h	46;"	d
+KB_CMD_PULSE_RESET	src/kbregs.h	47;"	d
+KB_CMD_READ_OUTPORT	src/kbregs.h	44;"	d
+KB_CMD_SET_CMDBYTE	src/kbregs.h	42;"	d
+KB_CMD_WRITE_OUTPORT	src/kbregs.h	45;"	d
+KB_CTRL	src/keyb.h	23;"	d
+KB_DATA_PORT	src/kbregs.h	24;"	d
+KB_DEL	src/keyb.h	/^	KB_INSERT, KB_DEL, KB_HOME, KB_END, KB_PGUP, KB_PGDN,$/;"	e	enum:__anon3
+KB_DOWN	src/keyb.h	/^	KB_LEFT, KB_RIGHT, KB_UP, KB_DOWN,$/;"	e	enum:__anon3
+KB_END	src/keyb.h	/^	KB_INSERT, KB_DEL, KB_HOME, KB_END, KB_PGUP, KB_PGDN,$/;"	e	enum:__anon3
+KB_ESC	src/keyb.h	/^	KB_ESC = 27,$/;"	e	enum:__anon3
+KB_F1	src/keyb.h	/^	KB_F1, KB_F2, KB_F3, KB_F4, KB_F5, KB_F6,$/;"	e	enum:__anon3
+KB_F10	src/keyb.h	/^	KB_F7, KB_F8, KB_F9, KB_F10, KB_F11, KB_F12,$/;"	e	enum:__anon3
+KB_F11	src/keyb.h	/^	KB_F7, KB_F8, KB_F9, KB_F10, KB_F11, KB_F12,$/;"	e	enum:__anon3
+KB_F12	src/keyb.h	/^	KB_F7, KB_F8, KB_F9, KB_F10, KB_F11, KB_F12,$/;"	e	enum:__anon3
+KB_F2	src/keyb.h	/^	KB_F1, KB_F2, KB_F3, KB_F4, KB_F5, KB_F6,$/;"	e	enum:__anon3
+KB_F3	src/keyb.h	/^	KB_F1, KB_F2, KB_F3, KB_F4, KB_F5, KB_F6,$/;"	e	enum:__anon3
+KB_F4	src/keyb.h	/^	KB_F1, KB_F2, KB_F3, KB_F4, KB_F5, KB_F6,$/;"	e	enum:__anon3
+KB_F5	src/keyb.h	/^	KB_F1, KB_F2, KB_F3, KB_F4, KB_F5, KB_F6,$/;"	e	enum:__anon3
+KB_F6	src/keyb.h	/^	KB_F1, KB_F2, KB_F3, KB_F4, KB_F5, KB_F6,$/;"	e	enum:__anon3
+KB_F7	src/keyb.h	/^	KB_F7, KB_F8, KB_F9, KB_F10, KB_F11, KB_F12,$/;"	e	enum:__anon3
+KB_F8	src/keyb.h	/^	KB_F7, KB_F8, KB_F9, KB_F10, KB_F11, KB_F12,$/;"	e	enum:__anon3
+KB_F9	src/keyb.h	/^	KB_F7, KB_F8, KB_F9, KB_F10, KB_F11, KB_F12,$/;"	e	enum:__anon3
+KB_HOME	src/keyb.h	/^	KB_INSERT, KB_DEL, KB_HOME, KB_END, KB_PGUP, KB_PGDN,$/;"	e	enum:__anon3
+KB_INSERT	src/keyb.h	/^	KB_INSERT, KB_DEL, KB_HOME, KB_END, KB_PGUP, KB_PGDN,$/;"	e	enum:__anon3
+KB_IRQ	src/kbregs.h	21;"	d
+KB_LALT	src/keyb.h	/^	KB_LALT, KB_RALT,$/;"	e	enum:__anon3
+KB_LCTRL	src/keyb.h	/^	KB_LCTRL, KB_RCTRL,$/;"	e	enum:__anon3
+KB_LEFT	src/keyb.h	/^	KB_LEFT, KB_RIGHT, KB_UP, KB_DOWN,$/;"	e	enum:__anon3
+KB_LSHIFT	src/keyb.h	/^	KB_LSHIFT, KB_RSHIFT,$/;"	e	enum:__anon3
+KB_NACK	src/kbregs.h	29;"	d
+KB_NUMLK	src/keyb.h	/^	KB_CAPSLK, KB_NUMLK, KB_SCRLK, KB_SYSRQ$/;"	e	enum:__anon3
+KB_NUM_0	src/keyb.h	/^	KB_NUM_0, KB_NUM_1, KB_NUM_2, KB_NUM_3, KB_NUM_4,$/;"	e	enum:__anon3
+KB_NUM_1	src/keyb.h	/^	KB_NUM_0, KB_NUM_1, KB_NUM_2, KB_NUM_3, KB_NUM_4,$/;"	e	enum:__anon3
+KB_NUM_2	src/keyb.h	/^	KB_NUM_0, KB_NUM_1, KB_NUM_2, KB_NUM_3, KB_NUM_4,$/;"	e	enum:__anon3
+KB_NUM_3	src/keyb.h	/^	KB_NUM_0, KB_NUM_1, KB_NUM_2, KB_NUM_3, KB_NUM_4,$/;"	e	enum:__anon3
+KB_NUM_4	src/keyb.h	/^	KB_NUM_0, KB_NUM_1, KB_NUM_2, KB_NUM_3, KB_NUM_4,$/;"	e	enum:__anon3
+KB_NUM_5	src/keyb.h	/^	KB_NUM_5, KB_NUM_6, KB_NUM_7, KB_NUM_8, KB_NUM_9,$/;"	e	enum:__anon3
+KB_NUM_6	src/keyb.h	/^	KB_NUM_5, KB_NUM_6, KB_NUM_7, KB_NUM_8, KB_NUM_9,$/;"	e	enum:__anon3
+KB_NUM_7	src/keyb.h	/^	KB_NUM_5, KB_NUM_6, KB_NUM_7, KB_NUM_8, KB_NUM_9,$/;"	e	enum:__anon3
+KB_NUM_8	src/keyb.h	/^	KB_NUM_5, KB_NUM_6, KB_NUM_7, KB_NUM_8, KB_NUM_9,$/;"	e	enum:__anon3
+KB_NUM_9	src/keyb.h	/^	KB_NUM_5, KB_NUM_6, KB_NUM_7, KB_NUM_8, KB_NUM_9,$/;"	e	enum:__anon3
+KB_NUM_DIV	src/keyb.h	/^	KB_NUM_DOT, KB_NUM_ENTER, KB_NUM_PLUS, KB_NUM_MINUS, KB_NUM_MUL, KB_NUM_DIV,$/;"	e	enum:__anon3
+KB_NUM_DOT	src/keyb.h	/^	KB_NUM_DOT, KB_NUM_ENTER, KB_NUM_PLUS, KB_NUM_MINUS, KB_NUM_MUL, KB_NUM_DIV,$/;"	e	enum:__anon3
+KB_NUM_ENTER	src/keyb.h	/^	KB_NUM_DOT, KB_NUM_ENTER, KB_NUM_PLUS, KB_NUM_MINUS, KB_NUM_MUL, KB_NUM_DIV,$/;"	e	enum:__anon3
+KB_NUM_MINUS	src/keyb.h	/^	KB_NUM_DOT, KB_NUM_ENTER, KB_NUM_PLUS, KB_NUM_MINUS, KB_NUM_MUL, KB_NUM_DIV,$/;"	e	enum:__anon3
+KB_NUM_MUL	src/keyb.h	/^	KB_NUM_DOT, KB_NUM_ENTER, KB_NUM_PLUS, KB_NUM_MINUS, KB_NUM_MUL, KB_NUM_DIV,$/;"	e	enum:__anon3
+KB_NUM_PLUS	src/keyb.h	/^	KB_NUM_DOT, KB_NUM_ENTER, KB_NUM_PLUS, KB_NUM_MINUS, KB_NUM_MUL, KB_NUM_DIV,$/;"	e	enum:__anon3
+KB_PGDN	src/keyb.h	/^	KB_INSERT, KB_DEL, KB_HOME, KB_END, KB_PGUP, KB_PGDN,$/;"	e	enum:__anon3
+KB_PGUP	src/keyb.h	/^	KB_INSERT, KB_DEL, KB_HOME, KB_END, KB_PGUP, KB_PGDN,$/;"	e	enum:__anon3
+KB_RALT	src/keyb.h	/^	KB_LALT, KB_RALT,$/;"	e	enum:__anon3
+KB_RCTRL	src/keyb.h	/^	KB_LCTRL, KB_RCTRL,$/;"	e	enum:__anon3
+KB_RIGHT	src/keyb.h	/^	KB_LEFT, KB_RIGHT, KB_UP, KB_DOWN,$/;"	e	enum:__anon3
+KB_RSHIFT	src/keyb.h	/^	KB_LSHIFT, KB_RSHIFT,$/;"	e	enum:__anon3
+KB_SCRLK	src/keyb.h	/^	KB_CAPSLK, KB_NUMLK, KB_SCRLK, KB_SYSRQ$/;"	e	enum:__anon3
+KB_SHIFT	src/keyb.h	24;"	d
+KB_STATUS_PORT	src/kbregs.h	26;"	d
+KB_STAT_ACTIVE	src/kbregs.h	35;"	d
+KB_STAT_AUX	src/kbregs.h	36;"	d
+KB_STAT_CMD	src/kbregs.h	34;"	d
+KB_STAT_INBUF_FULL	src/kbregs.h	32;"	d
+KB_STAT_OUTBUF_FULL	src/kbregs.h	31;"	d
+KB_STAT_PAR_ERROR	src/kbregs.h	38;"	d
+KB_STAT_SYSFLAG	src/kbregs.h	33;"	d
+KB_STAT_TIMEOUT	src/kbregs.h	37;"	d
+KB_SYSRQ	src/keyb.h	/^	KB_CAPSLK, KB_NUMLK, KB_SCRLK, KB_SYSRQ$/;"	e	enum:__anon3
+KB_UP	src/keyb.h	/^	KB_LEFT, KB_RIGHT, KB_UP, KB_DOWN,$/;"	e	enum:__anon3
+KEYB_H_	src/keyb.h	19;"	d
+LCTL_8N1	src/serial.c	73;"	d	file:
+LCTL_8N2	src/serial.c	74;"	d	file:
+LCTL_BITS_8	src/serial.c	70;"	d	file:
+LCTL_DLAB	src/serial.c	72;"	d	file:
+LCTL_STOP_2	src/serial.c	71;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS = $(ldarch) -nostdlib -T pcboot.ld -print-gc-sections$/;"	m
+LST_DRDY	src/serial.c	84;"	d	file:
+LST_ERROR	src/serial.c	91;"	d	file:
+LST_ERR_BRK	src/serial.c	88;"	d	file:
+LST_ERR_FRAME	src/serial.c	87;"	d	file:
+LST_ERR_OVER	src/serial.c	85;"	d	file:
+LST_ERR_PARITY	src/serial.c	86;"	d	file:
+LST_TIDLE	src/serial.c	90;"	d	file:
+LST_TREG_EMPTY	src/serial.c	89;"	d	file:
+MAGIC	src/libc/malloc.c	28;"	d	file:
+MAX_MAP_SIZE	src/mem.c	43;"	d	file:
+MAX_POOL_PAGES	src/libc/malloc.c	38;"	d	file:
+MAX_POOL_SIZE	src/libc/malloc.c	37;"	d	file:
+MCTL_DTR	src/serial.c	77;"	d	file:
+MCTL_LOOP	src/serial.c	81;"	d	file:
+MCTL_OUT1	src/serial.c	79;"	d	file:
+MCTL_OUT2	src/serial.c	80;"	d	file:
+MCTL_RTS	src/serial.c	78;"	d	file:
+MEM_H_	src/mem.h	19;"	d
+MEM_START	src/mem.c	32;"	d	file:
+MODE_LFB	src/vbe.c	10;"	d	file:
+MOUSE_LBN_BIT	src/psaux.h	21;"	d
+MOUSE_MBN_BIT	src/psaux.h	23;"	d
+MOUSE_RBN_BIT	src/psaux.h	22;"	d
+MSEC_TO_TICKS	src/timer.c	58;"	d	file:
+MST_CTS	src/serial.c	98;"	d	file:
+MST_DCD	src/serial.c	101;"	d	file:
+MST_DELTA_CTS	src/serial.c	94;"	d	file:
+MST_DELTA_DCD	src/serial.c	97;"	d	file:
+MST_DELTA_DSR	src/serial.c	95;"	d	file:
+MST_DSR	src/serial.c	99;"	d	file:
+MST_RING	src/serial.c	100;"	d	file:
+MST_TERI	src/serial.c	96;"	d	file:
+NCOLS	src/contty.c	28;"	d	file:
+NROWS	src/contty.c	29;"	d	file:
+NULL	src/test/vbetest.c	35;"	d	file:
+NUM_POOLS	src/libc/malloc.c	33;"	d	file:
+NUM_SEGMENTS	src/segm.h	/^	NUM_SEGMENTS$/;"	e	enum:__anon5
+OCW2_EOI	src/intr.c	54;"	d	file:
+OCW2_EOI	src/serial.c	108;"	d	file:
+OSC_FREQ_HZ	src/timer.c	25;"	d	file:
+OUT_BUF	src/libc/stdio.c	/^	OUT_BUF,$/;"	e	enum:__anon4	file:
+OUT_DEF	src/libc/stdio.c	/^	OUT_DEF,$/;"	e	enum:__anon4	file:
+OUT_SCR	src/libc/stdio.c	/^	OUT_SCR,$/;"	e	enum:__anon4	file:
+OUT_SER	src/libc/stdio.c	/^	OUT_SER$/;"	e	enum:__anon4	file:
+PAGE_TO_ADDR	src/mem.h	22;"	d
+PAGE_TO_PTR	src/mem.h	23;"	d
+PANIC_H_	src/panic.h	19;"	d
+PCBOOT_CONFIG_H_	src/config.h	19;"	d
+PCI_H_	src/pci.h	19;"	d
+PCI_SIG	src/pci.c	36;"	d	file:
+PIC1_CMD	src/intr.c	35;"	d	file:
+PIC1_CMD_PORT	src/serial.c	104;"	d	file:
+PIC1_DATA	src/intr.c	36;"	d	file:
+PIC1_DATA_PORT	src/serial.c	105;"	d	file:
+PIC2_CMD	src/intr.c	37;"	d	file:
+PIC2_CMD_PORT	src/serial.c	106;"	d	file:
+PIC2_DATA	src/intr.c	38;"	d	file:
+PIC2_DATA_PORT	src/serial.c	107;"	d	file:
+POOL_SIZE	src/libc/malloc.c	36;"	d	file:
+PORT_CMD	src/timer.c	34;"	d	file:
+PORT_DATA0	src/timer.c	31;"	d	file:
+PORT_DATA1	src/timer.c	32;"	d	file:
+PORT_DATA2	src/timer.c	33;"	d	file:
+PSAUX_H_	src/psaux.h	19;"	d
+PSAUX_IRQ	src/kbregs.h	22;"	d
+PTR_DESC	src/libc/malloc.c	31;"	d	file:
+REALPTR	src/video.c	24;"	d	file:
+SAME_BPP	src/video.c	30;"	d	file:
+SEGM_CODE16	src/segm.h	/^	SEGM_CODE16,$/;"	e	enum:__anon5
+SEGM_H_	src/segm.h	19;"	d
+SEGM_KCODE	src/segm.h	/^	SEGM_KCODE = 1,$/;"	e	enum:__anon5
+SEGM_KDATA	src/segm.h	/^	SEGM_KDATA = 2,$/;"	e	enum:__anon5
+SEGM_TASK	src/segm.h	/^	SEGM_TASK,$/;"	e	enum:__anon5
+SEGM_UCODE	src/segm.h	/^	SEGM_UCODE,$/;"	e	enum:__anon5
+SEGM_UDATA	src/segm.h	/^	SEGM_UDATA,$/;"	e	enum:__anon5
+SEG_ADDR	src/vbe.c	8;"	d	file:
+SERIAL_H_	src/serial.h	19;"	d
+SER_8N1	src/serial.h	21;"	d
+SER_8N2	src/serial.h	22;"	d
+SER_HWFLOW	src/serial.h	23;"	d
+STAT_AUX_PENDING	src/psaux.c	109;"	d	file:
+STDARG_H_	src/libc/stdarg.h	19;"	d
+STDIO_H_	src/libc/stdio.h	19;"	d
+STDLIB_H_	src/libc/stdlib.h	19;"	d
+STRING_H_	src/libc/string.h	19;"	d
+SYSCALL_INT	src/intr.c	25;"	d	file:
+SZ	src/libc/stdio.c	132;"	d	file:
+Ssrc	Makefile	/^Ssrc = $(wildcard src\/*.S)$/;"	m
+TEXT_ADDR	src/contty.c	30;"	d	file:
+TICK_FREQ_HZ	src/config.h	22;"	d
+TSS_H_	src/tss.h	19;"	d
+TSS_TYPE_BITS	src/segm.c	43;"	d	file:
+TYPE_CODE	src/segm.c	/^enum {TYPE_DATA, TYPE_CODE};$/;"	e	enum:__anon2	file:
+TYPE_DATA	src/segm.c	/^enum {TYPE_DATA, TYPE_CODE};$/;"	e	enum:__anon2	file:
+TYPE_MULTIFUNC	src/pci.c	38;"	d	file:
+UART1_BASE	src/serial.c	23;"	d	file:
+UART1_IRQ	src/serial.c	25;"	d	file:
+UART2_BASE	src/serial.c	24;"	d	file:
+UART2_IRQ	src/serial.c	26;"	d	file:
+UART_DATA	src/serial.c	28;"	d	file:
+UART_DIVHI	src/serial.c	31;"	d	file:
+UART_DIVLO	src/serial.c	30;"	d	file:
+UART_FIFO	src/serial.c	32;"	d	file:
+UART_IID	src/serial.c	33;"	d	file:
+UART_INTR	src/serial.c	29;"	d	file:
+UART_LCTL	src/serial.c	34;"	d	file:
+UART_LSTAT	src/serial.c	36;"	d	file:
+UART_MCTL	src/serial.c	35;"	d	file:
+UART_MSTAT	src/serial.c	37;"	d	file:
+USED	src/mem.c	25;"	d	file:
+VBEPTR	src/video.c	25;"	d	file:
+VBEPTR_OFF	src/video.c	27;"	d	file:
+VBEPTR_SEG	src/video.c	26;"	d	file:
+VBETEST_H_	src/test/vbetest.h	2;"	d
+VBE_ATTR_LFB	src/vbe.h	6;"	d
+VBE_H_	src/vbe.h	2;"	d
+VBE_MODE_LFB	src/vbe.h	7;"	d
+VIDEO_H_	src/video.h	19;"	d
+VIRT_ROWS	src/contty.c	26;"	d	file:
+VMEM_CHAR	src/contty.c	42;"	d	file:
+_TIMER_H_	src/timer.h	19;"	d
+__anon1::d	src/desc.h	/^	uint16_t d[4];$/;"	m	struct:__anon1	access:public
+a20done	src/boot/boot2.s	/^a20done:$/;"	l
+abort_read	src/boot/boot.s	/^abort_read:$/;"	l
+abort_read	src/boot/boot2.s	/^abort_read:$/;"	l
+add_memory	src/mem.c	/^static void add_memory(uint32_t start, size_t size);$/;"	p	file:	signature:(uint32_t start, size_t size)
+add_memory	src/mem.c	/^static void add_memory(uint32_t start, size_t sz)$/;"	f	file:	signature:(uint32_t start, size_t sz)
+add_to_pool	src/libc/malloc.c	/^static int add_to_pool(struct mem_desc *b);$/;"	p	file:	signature:(struct mem_desc *b)
+add_to_pool	src/libc/malloc.c	/^static int add_to_pool(struct mem_desc *mem)$/;"	f	file:	signature:(struct mem_desc *mem)
+addr	src/intr_asm.S	/^addr:	.long 0$/;"	l
+addr	src/segm_asm.s	/^addr:	.long 0$/;"	l
+all_registers	src/panic.c	/^struct all_registers {$/;"	s	file:
+all_registers::cr0	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+all_registers::cr1	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+all_registers::cr2	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+all_registers::cr3	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+all_registers::cs	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+all_registers::ds	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+all_registers::eax	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+all_registers::ebp	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+all_registers::ebx	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+all_registers::ecx	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+all_registers::edi	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+all_registers::edx	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+all_registers::eflags	src/panic.c	/^	uint32_t eflags;$/;"	m	struct:all_registers	file:	access:public
+all_registers::es	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+all_registers::esi	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+all_registers::esp	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+all_registers::fs	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+all_registers::gs	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+all_registers::ss	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+alloc_ppage	src/mem.c	/^int alloc_ppage(void)$/;"	f	signature:(void)
+alloc_ppage	src/mem.h	/^int alloc_ppage(void);$/;"	p	signature:(void)
+alloc_ppage_range	src/mem.c	/^int alloc_ppage_range(int start, int size)$/;"	f	signature:(int start, int size)
+alloc_ppage_range	src/mem.h	/^int alloc_ppage_range(int start, int size);$/;"	p	signature:(int start, int size)
+alloc_ppages	src/mem.c	/^int alloc_ppages(int count)$/;"	f	signature:(int count)
+alloc_ppages	src/mem.h	/^int alloc_ppages(int count);$/;"	p	signature:(int count)
+asarch	Makefile	/^	asarch = --32$/;"	m
+assert	src/libc/assert.h	23;"	d
+atoi	src/libc/stdlib.c	/^int atoi(const char *str)$/;"	f	signature:(const char *str)
+atoi	src/libc/stdlib.h	/^int atoi(const char *str);$/;"	p	signature:(const char *str)
+atol	src/libc/stdlib.c	/^long atol(const char *str)$/;"	f	signature:(const char *str)
+atol	src/libc/stdlib.h	/^long atol(const char *str);$/;"	p	signature:(const char *str)
+aux_pending	src/psaux.c	/^static inline int aux_pending(void)$/;"	f	file:	signature:(void)
+bank_size	src/vbe.h	/^	uint8_t bank_size;		\/* bank size in KB *\/$/;"	m	struct:vbe_mode_info	access:public
+base	src/serial.c	/^	int base, intr;$/;"	m	struct:serial_port	file:	access:public
+base_addr	src/pci.c	/^	uint32_t base_addr[6];$/;"	m	struct:config_data	file:	access:public
+bbits	src/video.h	/^	int rbits, gbits, bbits;$/;"	m	struct:video_mode	access:public
+bin	Makefile	/^bin = test.bin$/;"	m
+bist	src/pci.c	/^	uint8_t bist;$/;"	m	struct:config_data	file:	access:public
+bitmap	src/mem.c	/^static uint32_t *bitmap;$/;"	v	file:
+blocking	src/serial.c	/^	int blocking;$/;"	m	struct:serial_port	file:	access:public
+bmask	src/video.h	/^	unsigned int rmask, gmask, bmask;$/;"	m	struct:video_mode	access:public
+bmask_size	src/vbe.h	/^	uint8_t bmask_size, bpos;$/;"	m	struct:vbe_mode_info	access:public
+bmsize	src/mem.c	/^static int bmsize, last_alloc_idx;$/;"	v	file:
+bnstate	src/psaux.c	/^static unsigned int bnstate;$/;"	v	file:
+boot	src/boot/boot.s	/^boot:$/;"	l
+boot2_addr	src/boot/boot.s	/^boot2_addr:$/;"	l
+boot_mem_map	src/boot/boot2.s	/^boot_mem_map: .space 128$/;"	l
+boot_mem_map_size	src/boot/boot2.s	/^boot_mem_map_size: .long 0$/;"	l
+bounds	src/psaux.c	/^static int bounds[4];$/;"	v	file:
+bpos	src/vbe.h	/^	uint8_t bmask_size, bpos;$/;"	m	struct:vbe_mode_info	access:public
+bpp	src/vbe.h	/^	uint8_t bpp;$/;"	m	struct:vbe_mode_info	access:public
+bpp	src/video.h	/^	int bpp;$/;"	m	struct:video_mode	access:public
+bshift	src/video.h	/^	int rshift, gshift, bshift;$/;"	m	struct:video_mode	access:public
+buf_ridx	src/keyb.c	/^static int buf_ridx, buf_widx;$/;"	v	file:
+buf_widx	src/keyb.c	/^static int buf_ridx, buf_widx;$/;"	v	file:
+buffer	src/boot/boot2.s	/^buffer:$/;"	l
+buffer	src/keyb.c	/^static int buffer[BUFSZ];$/;"	v	file:
+bwrite	src/libc/stdio.c	/^static void bwrite(int out, char *buf, size_t buf_sz, char *str, int sz)$/;"	f	file:	signature:(int out, char *buf, size_t buf_sz, char *str, int sz)
+bwrite	src/libc/stdio.c	/^static void bwrite(int out, char *buf, size_t buf_sz, char *str, int sz);$/;"	p	file:	signature:(int out, char *buf, size_t buf_sz, char *str, int sz)
+cacheline_size	src/pci.c	/^	uint8_t cacheline_size;$/;"	m	struct:config_data	file:	access:public
+can_send	src/serial.c	/^static int can_send(int fd)$/;"	f	file:	signature:(int fd)
+caps	src/vbe.h	/^	uint8_t caps[4];			\/* capabilities *\/$/;"	m	struct:vbe_info	access:public
+cardbus_cis	src/pci.c	/^	uint32_t cardbus_cis;$/;"	m	struct:config_data	file:	access:public
+ccarch	Makefile	/^	ccarch = -m32$/;"	m
+cfg_read32	src/pci.c	/^static uint32_t (*cfg_read32)(int, int, int, int);$/;"	v	file:
+cfg_read32_m1	src/pci.c	/^static uint32_t cfg_read32_m1(int bus, int dev, int func, int reg)$/;"	f	file:	signature:(int bus, int dev, int func, int reg)
+cfg_read32_m1	src/pci.c	/^static uint32_t cfg_read32_m1(int bus, int dev, int func, int reg);$/;"	p	file:	signature:(int bus, int dev, int func, int reg)
+cfg_read32_m2	src/pci.c	/^static uint32_t cfg_read32_m2(int bus, int dev, int func, int reg)$/;"	f	file:	signature:(int bus, int dev, int func, int reg)
+cfg_read32_m2	src/pci.c	/^static uint32_t cfg_read32_m2(int bus, int dev, int func, int reg);$/;"	p	file:	signature:(int bus, int dev, int func, int reg)
+class	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+class_base_names	src/pci.c	/^static const char *class_base_names[] = {$/;"	v	file:
+class_bridge_names	src/pci.c	/^static const char *class_bridge_names[] = {$/;"	v	file:
+class_comm_names	src/pci.c	/^static const char *class_comm_names[] = {$/;"	v	file:
+class_disp_names	src/pci.c	/^static const char *class_disp_names[] = {$/;"	v	file:
+class_input_names	src/pci.c	/^static const char *class_input_names[] = {$/;"	v	file:
+class_mass_names	src/pci.c	/^static const char *class_mass_names[] = {$/;"	v	file:
+class_mm_names	src/pci.c	/^static const char *class_mm_names[] = {$/;"	v	file:
+class_names	src/pci.c	/^static const char *class_names[] = {$/;"	v	file:
+class_net_names	src/pci.c	/^static const char *class_net_names[] = {$/;"	v	file:
+class_sat_names	src/pci.c	/^static const char *class_sat_names[] = {$/;"	v	file:
+class_ser_names	src/pci.c	/^static const char *class_ser_names[] = {$/;"	v	file:
+class_str	src/pci.c	/^static const char *class_str(int cc)$/;"	f	file:	signature:(int cc)
+class_str	src/pci.c	/^static const char *class_str(int cc);$/;"	p	file:	signature:(int cc)
+clearscr	src/boot/boot2.s	/^clearscr:$/;"	l
+cmd	src/pci.c	/^	uint16_t cmd, status;$/;"	m	struct:config_data	file:	access:public
+cmode_info	src/vbe.h	/^	uint8_t cmode_info;		\/* direct color mode attributes *\/$/;"	m	struct:vbe_mode_info	access:public
+color_mask	src/video.c	/^unsigned int color_mask(int nbits, int pos)$/;"	f	signature:(int nbits, int pos)
+color_mask	src/video.c	/^unsigned int color_mask(int nbits, int pos);$/;"	p	file:	signature:(int nbits, int pos)
+con_bgcolor	src/contty.c	/^void con_bgcolor(int c)$/;"	f	signature:(int c)
+con_bgcolor	src/contty.h	/^void con_bgcolor(int c);$/;"	p	signature:(int c)
+con_clear	src/contty.c	/^void con_clear(void)$/;"	f	signature:(void)
+con_clear	src/contty.h	/^void con_clear(void);$/;"	p	signature:(void)
+con_cursor	src/contty.c	/^void con_cursor(int x, int y)$/;"	f	signature:(int x, int y)
+con_cursor	src/contty.h	/^void con_cursor(int x, int y);$/;"	p	signature:(int x, int y)
+con_fgcolor	src/contty.c	/^void con_fgcolor(int c)$/;"	f	signature:(int c)
+con_fgcolor	src/contty.h	/^void con_fgcolor(int c);$/;"	p	signature:(int c)
+con_init	src/contty.c	/^int con_init(void)$/;"	f	signature:(void)
+con_init	src/contty.h	/^int con_init(void);$/;"	p	signature:(void)
+con_printf	src/contty.c	/^void con_printf(int x, int y, const char *fmt, ...)$/;"	f	signature:(int x, int y, const char *fmt, ...)
+con_printf	src/contty.h	/^void con_printf(int x, int y, const char *fmt, ...);$/;"	p	signature:(int x, int y, const char *fmt, ...)
+con_putchar	src/contty.c	/^void con_putchar(int c)$/;"	f	signature:(int c)
+con_putchar	src/contty.h	/^void con_putchar(int c);$/;"	p	signature:(int c)
+con_putchar_scr	src/contty.c	/^void con_putchar_scr(int x, int y, int c)$/;"	f	signature:(int x, int y, int c)
+con_putchar_scr	src/contty.h	/^void con_putchar_scr(int x, int y, int c);$/;"	p	signature:(int x, int y, int c)
+con_show_cursor	src/contty.c	/^void con_show_cursor(int show)$/;"	f	signature:(int show)
+con_show_cursor	src/contty.h	/^void con_show_cursor(int show);$/;"	p	signature:(int show)
+config_data	src/pci.c	/^struct config_data {$/;"	s	file:
+config_data::base_addr	src/pci.c	/^	uint32_t base_addr[6];$/;"	m	struct:config_data	file:	access:public
+config_data::bist	src/pci.c	/^	uint8_t bist;$/;"	m	struct:config_data	file:	access:public
+config_data::cacheline_size	src/pci.c	/^	uint8_t cacheline_size;$/;"	m	struct:config_data	file:	access:public
+config_data::cardbus_cis	src/pci.c	/^	uint32_t cardbus_cis;$/;"	m	struct:config_data	file:	access:public
+config_data::class	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+config_data::cmd	src/pci.c	/^	uint16_t cmd, status;$/;"	m	struct:config_data	file:	access:public
+config_data::device	src/pci.c	/^	uint16_t vendor, device;$/;"	m	struct:config_data	file:	access:public
+config_data::hdr_type	src/pci.c	/^	uint8_t hdr_type;$/;"	m	struct:config_data	file:	access:public
+config_data::iface	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+config_data::intr_line	src/pci.c	/^	uint8_t intr_line, intr_pin;$/;"	m	struct:config_data	file:	access:public
+config_data::intr_pin	src/pci.c	/^	uint8_t intr_line, intr_pin;$/;"	m	struct:config_data	file:	access:public
+config_data::latency_timer	src/pci.c	/^	uint8_t latency_timer;$/;"	m	struct:config_data	file:	access:public
+config_data::max_latency	src/pci.c	/^	uint8_t min_grant, max_latency;$/;"	m	struct:config_data	file:	access:public
+config_data::min_grant	src/pci.c	/^	uint8_t min_grant, max_latency;$/;"	m	struct:config_data	file:	access:public
+config_data::reserved1	src/pci.c	/^	uint32_t reserved1, reserved2;$/;"	m	struct:config_data	file:	access:public
+config_data::reserved2	src/pci.c	/^	uint32_t reserved1, reserved2;$/;"	m	struct:config_data	file:	access:public
+config_data::rev	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+config_data::rom_addr	src/pci.c	/^	uint32_t rom_addr;$/;"	m	struct:config_data	file:	access:public
+config_data::status	src/pci.c	/^	uint16_t cmd, status;$/;"	m	struct:config_data	file:	access:public
+config_data::subclass	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+config_data::subsys	src/pci.c	/^	uint16_t subsys;$/;"	m	struct:config_data	file:	access:public
+config_data::subsys_vendor	src/pci.c	/^	uint16_t subsys_vendor;$/;"	m	struct:config_data	file:	access:public
+config_data::vendor	src/pci.c	/^	uint16_t vendor, device;$/;"	m	struct:config_data	file:	access:public
+convc	src/libc/stdio.c	/^static char *convc = "dioxXucsfeEgGpn%";$/;"	v	file:
+convloop	src/boot/boot.s	/^convloop:$/;"	l
+convloop	src/boot/boot2.s	/^convloop:$/;"	l
+cr0	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+cr1	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+cr2	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+cr3	src/panic.c	/^	uint32_t cr0, cr1, cr2, cr3;$/;"	m	struct:all_registers	file:	access:public
+cr3	src/tss.h	/^	uint32_t cr3;$/;"	m	struct:task_state	access:public
+crtc_cursor	src/contty.c	/^static void crtc_cursor(int x, int y)$/;"	f	file:	signature:(int x, int y)
+crtc_cursor	src/contty.c	/^static void crtc_cursor(int x, int y);$/;"	p	file:	signature:(int x, int y)
+crtc_read	src/contty.c	/^static inline unsigned char crtc_read(int reg)$/;"	f	file:	signature:(int reg)
+crtc_read	src/contty.c	/^static inline unsigned char crtc_read(int reg);$/;"	p	file:	signature:(int reg)
+crtc_setstart	src/contty.c	/^static void crtc_setstart(int y)$/;"	f	file:	signature:(int y)
+crtc_setstart	src/contty.c	/^static void crtc_setstart(int y);$/;"	p	file:	signature:(int y)
+crtc_write	src/contty.c	/^static inline void crtc_write(int reg, unsigned char val)$/;"	f	file:	signature:(int reg, unsigned char val)
+crtc_write	src/contty.c	/^static inline void crtc_write(int reg, unsigned char val);$/;"	p	file:	signature:(int reg, unsigned char val)
+crtc_write_bits	src/contty.c	/^static inline void crtc_write_bits(int reg, unsigned char val, unsigned char mask)$/;"	f	file:	signature:(int reg, unsigned char val, unsigned char mask)
+crtc_write_bits	src/contty.c	/^static inline void crtc_write_bits(int reg, unsigned char val, unsigned char mask);$/;"	p	file:	signature:(int reg, unsigned char val, unsigned char mask)
+cs	src/intr.h	/^	uint32_t eip, cs, eflags;$/;"	m	struct:intr_frame	access:public
+cs	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+cs	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+csrc	Makefile	/^csrc = $(wildcard src\/*.c) $(wildcard src\/libc\/*.c) $(wildcard src\/test\/*.c)$/;"	m
+cur_intr_frame	src/intr.c	/^static struct intr_frame *cur_intr_frame;$/;"	v	typeref:struct:intr_frame	file:
+cur_track	src/boot/boot2.s	/^cur_track: .long 0$/;"	l
+cursor	src/test/vbetest.c	/^static uint16_t cursor[] = {$/;"	v	file:
+cursor_x	src/boot/boot2.s	/^cursor_x: .long 0$/;"	l
+cursor_y	src/boot/boot2.s	/^cursor_y: .long 0$/;"	l
+d	src/desc.h	/^	uint16_t d[4];$/;"	m	struct:__anon1	access:public
+dbg	Makefile	/^dbg = -g$/;"	m
+delay7us	src/keyb.c	25;"	d	file:
+dep	Makefile	/^dep = $(obj:.o=.d)$/;"	m
+desc_t	src/desc.h	/^} desc_t;$/;"	t	typeref:struct:__anon1
+dest_ptr	src/boot/boot2.s	/^dest_ptr: .long 0$/;"	l
+detect_mem_88	src/boot/boot2.s	/^detect_mem_88:$/;"	l
+detect_mem_e801	src/boot/boot2.s	/^detect_mem_e801:$/;"	l
+detect_mem_e820	src/boot/boot2.s	/^detect_mem_e820:$/;"	l
+detect_memory	src/boot/boot2.s	/^detect_memory:$/;"	l
+device	src/pci.c	/^	uint16_t vendor, device;$/;"	m	struct:config_data	file:	access:public
+devzero	src/test/vbetest.c	/^int devzero(void)$/;"	f	signature:(void)
+devzero	src/test/vbetest.h	/^int devzero(void);$/;"	p	signature:(void)
+devzero_err_handler	src/test/vbetest.c	/^static void devzero_err_handler(void)$/;"	f	file:	signature:(void)
+disable_intr	src/asmops.h	24;"	d
+dispatch_intr	src/intr.c	/^void dispatch_intr(struct intr_frame frm)$/;"	f	signature:(struct intr_frame frm)
+draw_cursor	src/test/vbetest.c	/^static void draw_cursor(int x, int y, uint16_t col)$/;"	f	file:	signature:(int x, int y, uint16_t col)
+draw_cursor	src/test/vbetest.c	/^static void draw_cursor(int x, int y, uint16_t col);$/;"	p	file:	signature:(int x, int y, uint16_t col)
+driveno_msg	src/boot/boot.s	/^driveno_msg: .asciz "Drv:"$/;"	l
+ds	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+ds	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+ds	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+dt	src/timer.c	/^	int dt;	\/* remaining ticks delta from the previous event *\/$/;"	m	struct:timer_event	file:	access:public
+e801_done	src/boot/boot2.s	/^e801_done:$/;"	l
+e801_fail	src/boot/boot2.s	/^e801_fail:$/;"	l
+e820_done	src/boot/boot2.s	/^e820_done:$/;"	l
+e820_fail	src/boot/boot2.s	/^e820_fail:$/;"	l
+e820_highzero	src/boot/boot2.s	/^e820_highzero:$/;"	l
+e820_looptop	src/boot/boot2.s	/^e820_looptop:$/;"	l
+e820_skip	src/boot/boot2.s	/^e820_skip:$/;"	l
+eax	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+eax	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+eax	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+eax	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+ebp	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+ebp	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+ebp	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+ebp	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+ebx	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+ebx	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+ebx	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+ebx	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+ecx	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+ecx	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+ecx	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+ecx	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+edi	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+edi	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+edi	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+edi	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+edx	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+edx	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+edx	src/panic.c	/^	uint32_t eax, ebx, ecx, edx;$/;"	m	struct:all_registers	file:	access:public
+edx	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+eflags	src/intr.h	/^	uint32_t eip, cs, eflags;$/;"	m	struct:intr_frame	access:public
+eflags	src/panic.c	/^	uint32_t eflags;$/;"	m	struct:all_registers	file:	access:public
+eflags	src/tss.h	/^	uint32_t eflags;$/;"	m	struct:task_state	access:public
+eip	src/intr.h	/^	uint32_t eip, cs, eflags;$/;"	m	struct:intr_frame	access:public
+eip	src/tss.h	/^	uint32_t eip;$/;"	m	struct:task_state	access:public
+elf	Makefile	/^elf = test$/;"	m
+ena20_fast_msg	src/boot/boot2.s	/^ena20_fast_msg: .asciz "Attempting fast A20 enable\\n"$/;"	l
+ena20_kbd_msg	src/boot/boot2.s	/^ena20_kbd_msg: .asciz "Attempting KBD A20 enable\\n"$/;"	l
+ena20_msg	src/boot/boot2.s	/^ena20_msg: .asciz "A20 line enabled\\n"$/;"	l
+enable_a20	src/boot/boot2.s	/^enable_a20:$/;"	l
+enable_a20_fast	src/boot/boot2.s	/^enable_a20_fast:$/;"	l
+enable_a20_kbd	src/boot/boot2.s	/^enable_a20_kbd:$/;"	l
+enable_intr	src/asmops.h	23;"	d
+end_of_irq	src/intr.c	/^void end_of_irq(int irq)$/;"	f	signature:(int irq)
+end_of_irq	src/intr.h	/^void end_of_irq(int irq);$/;"	p	signature:(int irq)
+enum_bus	src/pci.c	/^static int enum_bus(int busid)$/;"	f	file:	signature:(int busid)
+enum_bus	src/pci.c	/^static int enum_bus(int busid);$/;"	p	file:	signature:(int busid)
+enum_dev	src/pci.c	/^static int enum_dev(int busid, int dev)$/;"	f	file:	signature:(int busid, int dev)
+enum_dev	src/pci.c	/^static int enum_dev(int busid, int dev);$/;"	p	file:	signature:(int busid, int dev)
+eoi_pending	src/intr.c	/^static int eoi_pending;$/;"	v	file:
+err	src/intr.h	/^	uint32_t inum, err;$/;"	m	struct:intr_frame	access:public
+errno	src/libc/errno.h	/^int errno;$/;"	v
+es	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+es	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+es	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+esi	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+esi	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+esi	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+esi	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+esp	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+esp	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+esp	src/panic.c	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:all_registers	file:	access:public
+esp	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+esp0	src/tss.h	/^	uint32_t esp0, ss0;	\/* we only ever set these two values *\/$/;"	m	struct:task_state	access:public
+esp1	src/tss.h	/^	uint32_t esp1, ss1;$/;"	m	struct:task_state	access:public
+esp2	src/tss.h	/^	uint32_t esp2, ss2;$/;"	m	struct:task_state	access:public
+evlist	src/timer.c	/^static struct timer_event *evlist;$/;"	v	typeref:struct:timer_event	file:
+f	Makefile	/^	dd if=$< of=$@ conv=notrunc$/;"	m
+f	Makefile	/^	dd if=\/dev\/zero of=$@ bs=512 count=2880$/;"	m
+fb_addr	src/vbe.h	/^	uint32_t fb_addr;		\/* physical address of the linear framebuffer *\/$/;"	m	struct:vbe_mode_info	access:public
+find_video_mode	src/video.c	/^int find_video_mode(int xsz, int ysz, int bpp)$/;"	f	signature:(int xsz, int ysz, int bpp)
+find_video_mode	src/video.h	/^int find_video_mode(int xsz, int ysz, int bpp);$/;"	p	signature:(int xsz, int ysz, int bpp)
+first_sect	src/boot/boot2.s	/^first_sect: .long 0$/;"	l
+flags	src/int86.h	/^	uint16_t flags;$/;"	m	struct:int86regs	access:public
+framebuf	src/test/vbetest.c	/^static uint16_t *framebuf;$/;"	v	file:
+frameloop	src/startup.s	/^frameloop:$/;"	l
+frameno	src/startup.s	/^frameno: .long 0$/;"	l
+free	src/libc/malloc.c	/^void free(void *p)$/;"	f	signature:(void *p)
+free	src/libc/stdlib.h	/^void free(void *ptr);$/;"	p	signature:(void *ptr)
+free_ppage	src/mem.c	/^void free_ppage(int pg)$/;"	f	signature:(int pg)
+free_ppage	src/mem.h	/^void free_ppage(int pg);$/;"	p	signature:(int pg)
+free_ppage_range	src/mem.c	/^int free_ppage_range(int start, int size)$/;"	f	signature:(int start, int size)
+free_ppage_range	src/mem.h	/^int free_ppage_range(int start, int size);$/;"	p	signature:(int start, int size)
+free_ppages	src/mem.c	/^void free_ppages(int pg0, int count)$/;"	f	signature:(int pg0, int count)
+free_ppages	src/mem.h	/^void free_ppages(int pg0, int count);$/;"	p	signature:(int pg0, int count)
+fs	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+fs	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+fs	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+gate_desc	src/intr.c	/^static void gate_desc(desc_t *desc, uint16_t sel, uint32_t addr, int dpl, int type)$/;"	f	file:	signature:(desc_t *desc, uint16_t sel, uint32_t addr, int dpl, int type)
+gate_desc	src/intr.c	/^static void gate_desc(desc_t *desc, uint16_t sel, uint32_t addr, int dpl, int type);$/;"	p	file:	signature:(desc_t *desc, uint16_t sel, uint32_t addr, int dpl, int type)
+gbits	src/video.h	/^	int rbits, gbits, bbits;$/;"	m	struct:video_mode	access:public
+gccopt	Makefile	/^gccopt = -fno-pic -ffreestanding -nostdinc -fno-builtin$/;"	m
+gdt	src/boot/boot2.s	/^gdt:	# 0: null segment$/;"	l
+gdt	src/segm.c	/^static desc_t gdt[NUM_SEGMENTS] __attribute__((aligned(8)));$/;"	v	file:
+gdt_lim	src/boot/boot2.s	/^gdt_lim: .word 23$/;"	l
+get_color_bits	src/video.c	/^int get_color_bits(int *rbits, int *gbits, int *bbits)$/;"	f	signature:(int *rbits, int *gbits, int *bbits)
+get_color_bits	src/video.h	/^int get_color_bits(int *rbits, int *gbits, int *bbits);$/;"	p	signature:(int *rbits, int *gbits, int *bbits)
+get_color_mask	src/video.c	/^int get_color_mask(unsigned int *rmask, unsigned int *gmask, unsigned int *bmask)$/;"	f	signature:(unsigned int *rmask, unsigned int *gmask, unsigned int *bmask)
+get_color_mask	src/video.h	/^int get_color_mask(unsigned int *rmask, unsigned int *gmask, unsigned int *bmask);$/;"	p	signature:(unsigned int *rmask, unsigned int *gmask, unsigned int *bmask)
+get_color_shift	src/video.c	/^int get_color_shift(int *rshift, int *gshift, int *bshift)$/;"	f	signature:(int *rshift, int *gshift, int *bshift)
+get_color_shift	src/video.h	/^int get_color_shift(int *rshift, int *gshift, int *bshift);$/;"	p	signature:(int *rshift, int *gshift, int *bshift)
+get_drive_chs	src/boot/boot.s	/^get_drive_chs:$/;"	l
+get_intr_flag	src/intr.h	/^int get_intr_flag(void);$/;"	p	signature:(void)
+get_intr_flag	src/intr_asm.S	/^get_intr_flag:$/;"	l
+get_intr_frame	src/intr.c	/^struct intr_frame *get_intr_frame(void)$/;"	f	signature:(void)
+get_intr_frame	src/intr.h	/^struct intr_frame *get_intr_frame(void);$/;"	p	signature:(void)
+get_regs	src/panic.c	/^void get_regs(struct all_registers *regs);$/;"	p	file:	signature:(struct all_registers *regs)
+get_regs	src/regs.s	/^get_regs:$/;"	l
+gmask	src/video.h	/^	unsigned int rmask, gmask, bmask;$/;"	m	struct:video_mode	access:public
+gmask_size	src/vbe.h	/^	uint8_t gmask_size, gpos;$/;"	m	struct:vbe_mode_info	access:public
+gpf_msg	src/boot/boot2.s	/^gpf_msg: .asciz "GP fault "$/;"	l
+gpos	src/vbe.h	/^	uint8_t gmask_size, gpos;$/;"	m	struct:vbe_mode_info	access:public
+gs	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+gs	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+gs	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+gshift	src/video.h	/^	int rshift, gshift, bshift;$/;"	m	struct:video_mode	access:public
+halt_cpu	src/asmops.h	25;"	d
+have_mouse	src/psaux.c	/^int have_mouse(void)$/;"	f	signature:(void)
+have_mouse	src/psaux.h	/^int have_mouse(void);$/;"	p	signature:(void)
+hdr_type	src/pci.c	/^	uint8_t hdr_type;$/;"	m	struct:config_data	file:	access:public
+heads_mask	src/boot/boot.s	/^heads_mask: .byte 1$/;"	l
+height	src/video.h	/^	int width, height;$/;"	m	struct:video_mode	access:public
+idt	src/boot/boot2.s	/^idt:	.space 104$/;"	l
+idt	src/intr.c	/^static desc_t idt[256] __attribute__((aligned(8)));$/;"	v	file:
+idt_lim	src/boot/boot2.s	/^idt_lim: .word 111$/;"	l
+idtlim	src/boot/boot2.s	/^idtlim:	.short 0$/;"	l
+idtr_desc	src/intr_asm.S	/^idtr_desc:$/;"	l
+iface	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+inb	src/asmops.h	/^static inline uint8_t inb(uint16_t port)$/;"	f	signature:(uint16_t port)
+inbuf	src/serial.c	/^	char inbuf[256];$/;"	m	struct:serial_port	file:	access:public
+inbuf_ridx	src/serial.c	/^	int inbuf_ridx, inbuf_widx;$/;"	m	struct:serial_port	file:	access:public
+inbuf_widx	src/serial.c	/^	int inbuf_ridx, inbuf_widx;$/;"	m	struct:serial_port	file:	access:public
+inc	Makefile	/^inc = -Isrc -Isrc\/libc -Isrc\/test$/;"	m
+init_intr	src/intr.c	/^void init_intr(void)$/;"	f	signature:(void)
+init_intr	src/intr.h	/^void init_intr(void);$/;"	p	signature:(void)
+init_mem	src/mem.c	/^void init_mem(void)$/;"	f	signature:(void)
+init_mem	src/mem.h	/^void init_mem(void);$/;"	p	signature:(void)
+init_mouse	src/psaux.c	/^static void init_mouse(void)$/;"	f	file:	signature:(void)
+init_mouse	src/psaux.c	/^static void init_mouse(void);$/;"	p	file:	signature:(void)
+init_once	src/video.c	/^static int init_once(void)$/;"	f	file:	signature:(void)
+init_pci	src/pci.c	/^void init_pci(void)$/;"	f	signature:(void)
+init_pci	src/pci.h	/^void init_pci(void);$/;"	p	signature:(void)
+init_pic	src/intr.c	/^static void init_pic(int offset)$/;"	f	file:	signature:(int offset)
+init_pic	src/intr.c	/^static void init_pic(int offset);$/;"	p	file:	signature:(int offset)
+init_psaux	src/psaux.c	/^void init_psaux(void)$/;"	f	signature:(void)
+init_psaux	src/psaux.h	/^void init_psaux(void);$/;"	p	signature:(void)
+init_segm	src/segm.c	/^void init_segm(void)$/;"	f	signature:(void)
+init_segm	src/segm.h	/^void init_segm(void);$/;"	p	signature:(void)
+init_timer	src/timer.c	/^void init_timer(void)$/;"	f	signature:(void)
+init_timer	src/timer.h	/^void init_timer(void);$/;"	p	signature:(void)
+inl	src/asmops.h	/^static inline uint32_t inl(uint16_t port)$/;"	f	signature:(uint16_t port)
+int16_t	src/libc/inttypes.h	/^typedef short int16_t;$/;"	t
+int32_t	src/libc/inttypes.h	/^typedef int int32_t;$/;"	t
+int64_t	src/libc/inttypes.h	/^typedef long long int64_t;$/;"	t
+int86	src/boot/boot2.s	/^int86:$/;"	l
+int86	src/int86.h	/^void int86(int inum, struct int86regs *regs);$/;"	p	signature:(int inum, struct int86regs *regs)
+int86regs	src/int86.h	/^struct int86regs {$/;"	s
+int86regs::ds	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+int86regs::eax	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+int86regs::ebp	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+int86regs::ebx	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+int86regs::ecx	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+int86regs::edi	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+int86regs::edx	src/int86.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:int86regs	access:public
+int86regs::es	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+int86regs::esi	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+int86regs::esp	src/int86.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:int86regs	access:public
+int86regs::flags	src/int86.h	/^	uint16_t flags;$/;"	m	struct:int86regs	access:public
+int86regs::fs	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+int86regs::gs	src/int86.h	/^	uint16_t es, ds, fs, gs;$/;"	m	struct:int86regs	access:public
+int8_t	src/libc/inttypes.h	/^typedef char int8_t;$/;"	t
+int_op	src/boot/boot2.s	/^int_op:	int $0$/;"	l
+intern_printf	src/libc/stdio.c	/^static int intern_printf(int out, char *buf, size_t sz, const char *fmt, va_list ap)$/;"	f	file:	signature:(int out, char *buf, size_t sz, const char *fmt, va_list ap)
+intern_printf	src/libc/stdio.c	/^static int intern_printf(int out, char *buf, size_t sz, const char *fmt, va_list ap);$/;"	p	file:	signature:(int out, char *buf, size_t sz, const char *fmt, va_list ap)
+interrupt	src/intr.c	/^void interrupt(int intr_num, intr_func_t func)$/;"	f	signature:(int intr_num, intr_func_t func)
+interrupt	src/intr.h	/^void interrupt(int intr_num, intr_func_t func);$/;"	p	signature:(int intr_num, intr_func_t func)
+intr	src/serial.c	/^	int base, intr;$/;"	m	struct:serial_port	file:	access:public
+intr_entry_common	src/intr_asm.S	/^intr_entry_common:$/;"	l
+intr_entry_default	src/intr.c	/^void intr_entry_default(void);$/;"	p	file:	signature:(void)
+intr_entry_fast_timer	src/intr_asm.S	/^intr_entry_fast_timer:$/;"	l
+intr_entry_fast_timer	src/timer.c	/^void intr_entry_fast_timer(void);$/;"	p	file:	signature:(void)
+intr_frame	src/intr.h	/^struct intr_frame {$/;"	s
+intr_frame::cs	src/intr.h	/^	uint32_t eip, cs, eflags;$/;"	m	struct:intr_frame	access:public
+intr_frame::eflags	src/intr.h	/^	uint32_t eip, cs, eflags;$/;"	m	struct:intr_frame	access:public
+intr_frame::eip	src/intr.h	/^	uint32_t eip, cs, eflags;$/;"	m	struct:intr_frame	access:public
+intr_frame::err	src/intr.h	/^	uint32_t inum, err;$/;"	m	struct:intr_frame	access:public
+intr_frame::inum	src/intr.h	/^	uint32_t inum, err;$/;"	m	struct:intr_frame	access:public
+intr_frame::regs	src/intr.h	/^	struct registers regs;$/;"	m	struct:intr_frame	typeref:struct:intr_frame::registers	access:public
+intr_func	src/intr.c	/^static intr_func_t intr_func[256];$/;"	v	file:
+intr_func_t	src/intr.h	/^typedef void (*intr_func_t)(int);$/;"	t
+intr_line	src/pci.c	/^	uint8_t intr_line, intr_pin;$/;"	m	struct:config_data	file:	access:public
+intr_mode	src/psaux.c	/^static int intr_mode;$/;"	v	file:
+intr_pin	src/pci.c	/^	uint8_t intr_line, intr_pin;$/;"	m	struct:config_data	file:	access:public
+intr_ret	src/intr.h	/^void intr_ret(struct intr_frame ifrm);$/;"	p	signature:(struct intr_frame ifrm)
+intr_ret	src/intr_asm.S	/^intr_ret:$/;"	l
+intr_ret_local	src/intr_asm.S	/^intr_ret_local:$/;"	l
+inum	src/intr.h	/^	uint32_t inum, err;$/;"	m	struct:intr_frame	access:public
+inw	src/asmops.h	/^static inline uint16_t inw(uint16_t port)$/;"	f	signature:(uint16_t port)
+iodelay	src/asmops.h	78;"	d
+iomap_addr	src/tss.h	/^	uint16_t trap, iomap_addr;$/;"	m	struct:task_state	access:public
+irq15_entry_check_spurious	src/intr.c	/^void irq15_entry_check_spurious(void);$/;"	p	file:	signature:(void)
+irq15_entry_check_spurious	src/intr_asm.S	/^irq15_entry_check_spurious:$/;"	l
+irq7_entry_check_spurious	src/intr.c	/^void irq7_entry_check_spurious(void);$/;"	p	file:	signature:(void)
+irq7_entry_check_spurious	src/intr_asm.S	/^irq7_entry_check_spurious:$/;"	l
+isalnum	src/libc/ctype.c	/^int isalnum(int c)$/;"	f	signature:(int c)
+isalnum	src/libc/ctype.h	/^int isalnum(int c);$/;"	p	signature:(int c)
+isalpha	src/libc/ctype.c	/^int isalpha(int c)$/;"	f	signature:(int c)
+isalpha	src/libc/ctype.h	/^int isalpha(int c);$/;"	p	signature:(int c)
+isascii	src/libc/ctype.h	23;"	d
+isblank	src/libc/ctype.c	/^int isblank(int c)$/;"	f	signature:(int c)
+isblank	src/libc/ctype.h	/^int isblank(int c);$/;"	p	signature:(int c)
+isdigit	src/libc/ctype.c	/^int isdigit(int c)$/;"	f	signature:(int c)
+isdigit	src/libc/ctype.h	/^int isdigit(int c);$/;"	p	signature:(int c)
+isgraph	src/libc/ctype.c	/^int isgraph(int c)$/;"	f	signature:(int c)
+islower	src/libc/ctype.c	/^int islower(int c)$/;"	f	signature:(int c)
+islower	src/libc/ctype.h	/^int islower(int c);$/;"	p	signature:(int c)
+isprint	src/libc/ctype.c	/^int isprint(int c)$/;"	f	signature:(int c)
+isprint	src/libc/ctype.h	/^int isprint(int c);$/;"	p	signature:(int c)
+isspace	src/libc/ctype.c	/^int isspace(int c)$/;"	f	signature:(int c)
+isspace	src/libc/ctype.h	/^int isspace(int c);$/;"	p	signature:(int c)
+isupper	src/libc/ctype.c	/^int isupper(int c)$/;"	f	signature:(int c)
+isupper	src/libc/ctype.h	/^int isupper(int c);$/;"	p	signature:(int c)
+itoa	src/libc/stdlib.c	/^void itoa(int val, char *buf, int base)$/;"	f	signature:(int val, char *buf, int base)
+itoa	src/libc/stdlib.h	/^void itoa(int val, char *buf, int base);$/;"	p	signature:(int val, char *buf, int base)
+kb_getkey	src/keyb.c	/^int kb_getkey(void)$/;"	f	signature:(void)
+kb_getkey	src/keyb.h	/^int kb_getkey(void);$/;"	p	signature:(void)
+kb_init	src/keyb.c	/^void kb_init(void)$/;"	f	signature:(void)
+kb_init	src/keyb.h	/^void kb_init(void);$/;"	p	signature:(void)
+kb_isdown	src/keyb.c	/^int kb_isdown(int key)$/;"	f	signature:(int key)
+kb_isdown	src/keyb.h	/^int kb_isdown(int key);$/;"	p	signature:(int key)
+kb_putback	src/keyb.c	/^void kb_putback(int key)$/;"	f	signature:(int key)
+kb_putback	src/keyb.h	/^void kb_putback(int key);$/;"	p	signature:(int key)
+kb_read_data	src/keyb.c	/^unsigned char kb_read_data(void)$/;"	f	signature:(void)
+kb_read_data	src/keyb.h	/^unsigned char kb_read_data(void);$/;"	p	signature:(void)
+kb_send_cmd	src/keyb.c	/^void kb_send_cmd(unsigned char cmd)$/;"	f	signature:(unsigned char cmd)
+kb_send_cmd	src/keyb.h	/^void kb_send_cmd(unsigned char cmd);$/;"	p	signature:(unsigned char cmd)
+kb_send_data	src/keyb.c	/^void kb_send_data(unsigned char data)$/;"	f	signature:(unsigned char data)
+kb_send_data	src/keyb.h	/^void kb_send_data(unsigned char data);$/;"	p	signature:(unsigned char data)
+kb_wait	src/keyb.c	/^void kb_wait(void)$/;"	f	signature:(void)
+kb_wait	src/keyb.h	/^void kb_wait(void);$/;"	p	signature:(void)
+kb_wait_read	src/keyb.c	/^int kb_wait_read(void)$/;"	f	signature:(void)
+kb_wait_read	src/keyb.h	/^int kb_wait_read(void);$/;"	p	signature:(void)
+kb_wait_write	src/keyb.c	/^int kb_wait_write(void)$/;"	f	signature:(void)
+kb_wait_write	src/keyb.h	/^int kb_wait_write(void);$/;"	p	signature:(void)
+kbc_wait_write	src/boot/boot2.s	/^kbc_wait_write:$/;"	l
+kbintr	src/keyb.c	/^static void kbintr()$/;"	f	file:
+kbintr	src/keyb.c	/^static void kbintr();$/;"	p	file:
+keystate	src/keyb.c	/^static unsigned char keystate[256];$/;"	v	file:
+last_alloc_idx	src/mem.c	/^static int bmsize, last_alloc_idx;$/;"	v	file:
+latency_timer	src/pci.c	/^	uint8_t latency_timer;$/;"	m	struct:config_data	file:	access:public
+ldarch	Makefile	/^	ldarch = -m elf_i386$/;"	m
+ldcs	src/segm_asm.s	/^ldcs:$/;"	l
+ldloop	src/boot/boot2.s	/^ldloop:$/;"	l
+ldt_sel	src/tss.h	/^	uint32_t ldt_sel;$/;"	m	struct:task_state	access:public
+lim	src/intr_asm.S	/^lim:	.short 0$/;"	l
+lim	src/segm_asm.s	/^lim:	.short 0$/;"	l
+linefeed	src/contty.c	/^static inline void linefeed(void)$/;"	f	file:	signature:(void)
+load_main	src/boot/boot2.s	/^load_main:$/;"	l
+loading_msg	src/boot/boot.s	/^loading_msg: .asciz "\\nLoad "$/;"	l
+logo_pal	src/startup.s	/^logo_pal:$/;"	l
+logo_pix	src/startup.s	/^logo_pix:$/;"	l
+logohack	src/kmain.c	/^void logohack(void);$/;"	p	file:	signature:(void)
+logohack	src/startup.s	/^logohack:$/;"	l
+low_mem_buffer	src/boot/boot2.s	/^low_mem_buffer:$/;"	l
+magic	src/libc/malloc.c	/^	uint32_t magic;$/;"	m	struct:mem_desc	file:	access:public
+mainsz_msg	src/boot/boot2.s	/^mainsz_msg: .asciz "Main program size: "$/;"	l
+mainsz_msg2	src/boot/boot2.s	/^mainsz_msg2: .asciz " ("$/;"	l
+mainsz_msg3	src/boot/boot2.s	/^mainsz_msg3: .asciz " sectors)\\n"$/;"	l
+malloc	src/libc/malloc.c	/^void *malloc(size_t sz)$/;"	f	signature:(size_t sz)
+malloc	src/libc/stdlib.h	/^void *malloc(size_t sz);$/;"	p	signature:(size_t sz)
+mark_page	src/mem.c	/^static void mark_page(int pg, int used)$/;"	f	file:	signature:(int pg, int used)
+mark_page	src/mem.c	/^static void mark_page(int pg, int used);$/;"	p	file:	signature:(int pg, int used)
+max_latency	src/pci.c	/^	uint8_t min_grant, max_latency;$/;"	m	struct:config_data	file:	access:public
+mcdone	src/libc/string_asm.s	/^mcdone:$/;"	l
+mcpost_tab	src/libc/string_asm.s	/^mcpost_tab: .long mcdone, mcpost1, mcpost2, mcpost3$/;"	l
+mem_desc	src/libc/malloc.c	/^struct mem_desc {$/;"	s	file:
+mem_desc::magic	src/libc/malloc.c	/^	uint32_t magic;$/;"	m	struct:mem_desc	file:	access:public
+mem_desc::next	src/libc/malloc.c	/^	struct mem_desc *next;$/;"	m	struct:mem_desc	typeref:struct:mem_desc::mem_desc	file:	access:public
+mem_desc::size	src/libc/malloc.c	/^	size_t size;$/;"	m	struct:mem_desc	file:	access:public
+mem_model	src/vbe.h	/^	uint8_t mem_model;$/;"	m	struct:vbe_mode_info	access:public
+mem_range	src/mem.c	/^struct mem_range {$/;"	s	file:
+mem_range::size	src/mem.c	/^	uint32_t size;$/;"	m	struct:mem_range	file:	access:public
+mem_range::start	src/mem.c	/^	uint32_t start;$/;"	m	struct:mem_range	file:	access:public
+memcpy	src/libc/string.h	/^void *memcpy(void *dest, const void *src, size_t n);$/;"	p	signature:(void *dest, const void *src, size_t n)
+memcpy	src/libc/string_asm.s	/^memcpy:$/;"	l
+memdet_88_msg	src/boot/boot2.s	/^memdet_88_msg:	 .asciz "Detecting RAM (BIOS 15h\/0x88, max 64mb)... "$/;"	l
+memdet_done	src/boot/boot2.s	/^memdet_done:$/;"	l
+memdet_e801_msg	src/boot/boot2.s	/^memdet_e801_msg: .asciz "Detecting RAM (BIOS 15h\/0xe801)... " $/;"	l
+memdet_e820_msg	src/boot/boot2.s	/^memdet_e820_msg: .asciz "Detecting RAM (BIOS 15h\/0xe820)... "$/;"	l
+memdet_fail_msg	src/boot/boot2.s	/^memdet_fail_msg: .ascii "Failed to detect available memory!\\n"$/;"	l
+memmove	src/libc/string.c	/^void *memmove(void *dest, const void *src, size_t n)$/;"	f	signature:(void *dest, const void *src, size_t n)
+memmove	src/libc/string.h	/^void *memmove(void *dest, const void *src, size_t n);$/;"	p	signature:(void *dest, const void *src, size_t n)
+memset	src/libc/string.h	/^void memset(void *s, int c, size_t n);$/;"	p	signature:(void *s, int c, size_t n)
+memset	src/libc/string_asm.s	/^memset:$/;"	l
+memset16	src/libc/string.h	/^void memset16(void *s, int c, size_t n);$/;"	p	signature:(void *s, int c, size_t n)
+memset16	src/libc/string_asm.s	/^memset16:$/;"	l
+min_grant	src/pci.c	/^	uint8_t min_grant, max_latency;$/;"	m	struct:config_data	file:	access:public
+mode	src/video.h	/^	int mode;$/;"	m	struct:video_mode	access:public
+mode_attr	src/vbe.h	/^	uint16_t mode_attr;$/;"	m	struct:vbe_mode_info	access:public
+mode_count	src/video.c	/^static int mode_count;$/;"	v	file:
+mode_info	src/video.c	/^static struct vbe_mode_info *mode_info;$/;"	v	typeref:struct:vbe_mode_info	file:
+modes	src/video.c	/^static uint16_t *modes;$/;"	v	file:
+mouse_state	src/psaux.c	/^unsigned int mouse_state(int *xp, int *yp)$/;"	f	signature:(int *xp, int *yp)
+mouse_state	src/psaux.h	/^unsigned int mouse_state(int *xp, int *yp);$/;"	p	signature:(int *xp, int *yp)
+ms16done	src/libc/string_asm.s	/^ms16done:$/;"	l
+ms16main	src/libc/string_asm.s	/^ms16main:$/;"	l
+ms16pre1	src/libc/string_asm.s	/^ms16pre1:$/;"	l
+ms16pre2	src/libc/string_asm.s	/^ms16pre2:$/;"	l
+ms16pre3	src/libc/string_asm.s	/^ms16pre3:$/;"	l
+ms16pre_tab	src/libc/string_asm.s	/^ms16pre_tab: .long ms16main, ms16pre1, ms16pre2, ms16pre3$/;"	l
+msdone	src/libc/string_asm.s	/^msdone:$/;"	l
+msmain	src/libc/string_asm.s	/^msmain:$/;"	l
+mspost_tab	src/libc/string_asm.s	/^mspost_tab: .long msdone, mspost1, mspost2, mspost3$/;"	l
+mspre1	src/libc/string_asm.s	/^mspre1:	stosb$/;"	l
+mspre2	src/libc/string_asm.s	/^mspre2:	stosb$/;"	l
+mspre3	src/libc/string_asm.s	/^mspre3:	stosb$/;"	l
+mspre_tab	src/libc/string_asm.s	/^mspre_tab: .long msmain, mspre1, mspre2, mspre3$/;"	l
+mx	src/psaux.c	/^static int mx, my;$/;"	v	file:
+my	src/psaux.c	/^static int mx, my;$/;"	v	file:
+next	src/libc/malloc.c	/^	struct mem_desc *next;$/;"	m	struct:mem_desc	typeref:struct:mem_desc::mem_desc	file:	access:public
+next	src/timer.c	/^	struct timer_event *next;$/;"	m	struct:timer_event	typeref:struct:timer_event::timer_event	file:	access:public
+nticks	src/timer.h	/^unsigned long nticks;$/;"	v
+num_banks	src/vbe.h	/^	uint8_t num_banks;$/;"	m	struct:vbe_mode_info	access:public
+num_cylinders	src/boot/boot.s	/^num_cylinders: .short 80$/;"	l
+num_heads	src/boot/boot.s	/^num_heads: .short 2$/;"	l
+num_img_pages	src/vbe.h	/^	uint8_t num_img_pages;$/;"	m	struct:vbe_mode_info	access:public
+num_open	src/serial.c	/^static int num_open;$/;"	v	file:
+num_planes	src/vbe.h	/^	uint8_t num_planes;$/;"	m	struct:vbe_mode_info	access:public
+num_pressed	src/keyb.c	/^static unsigned int num_pressed;$/;"	v	file:
+numbuf	src/boot/boot2.s	/^numbuf: .space 16$/;"	l
+obj	Makefile	/^obj = $(csrc:.c=.o) $(ssrc:.s=.o) $(Ssrc:.S=.o)$/;"	m
+oem_data	src/vbe.h	/^	uint8_t oem_data[256];$/;"	m	struct:vbe_info	access:public
+oem_product_name_ptr	src/vbe.h	/^	uint32_t oem_product_name_ptr;$/;"	m	struct:vbe_info	access:public
+oem_product_rev_ptr	src/vbe.h	/^	uint32_t oem_product_rev_ptr;$/;"	m	struct:vbe_info	access:public
+oem_str_ptr	src/vbe.h	/^	uint32_t oem_str_ptr;$/;"	m	struct:vbe_info	access:public
+oem_sw_rev	src/vbe.h	/^	uint16_t oem_sw_rev;		\/* VBE implementation software revision *\/$/;"	m	struct:vbe_info	access:public
+oem_vendor_name_ptr	src/vbe.h	/^	uint32_t oem_vendor_name_ptr;$/;"	m	struct:vbe_info	access:public
+off	src/segm_asm.s	/^off:	.long 0$/;"	l
+ok	src/boot/boot.s	/^ok:	xor %eax, %eax$/;"	l
+outb	src/asmops.h	62;"	d
+outl	src/asmops.h	72;"	d
+outw	src/asmops.h	67;"	d
+panic	src/panic.c	/^void panic(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+panic	src/panic.h	/^void panic(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+pcboot_main	src/kmain.c	/^void pcboot_main(void)$/;"	f	signature:(void)
+pcboot_putchar	src/libc/stdio.c	/^extern void pcboot_putchar(int c);$/;"	p	file:	signature:(int c)
+poll_mouse	src/psaux.c	/^void poll_mouse(void)$/;"	f	signature:(void)
+poll_mouse	src/psaux.h	/^void poll_mouse(void);$/;"	p	signature:(void)
+pool_index	src/libc/malloc.c	/^static int pool_index(int sz)$/;"	f	file:	signature:(int sz)
+pools	src/libc/malloc.c	/^static struct mem_desc *pools[NUM_POOLS];$/;"	v	typeref:struct:mem_desc	file:
+ports	src/serial.c	/^static struct serial_port ports[2];$/;"	v	typeref:struct:serial_port	file:
+present	src/psaux.c	/^static int present;$/;"	v	file:
+prev_task	src/tss.h	/^	uint32_t prev_task;$/;"	m	struct:task_state	access:public
+print_char	src/boot/boot.s	/^print_char:$/;"	l
+print_dev_info	src/pci.c	/^static void print_dev_info(struct config_data *info, int bus, int dev, int func)$/;"	f	file:	signature:(struct config_data *info, int bus, int dev, int func)
+print_dev_info	src/pci.c	/^static void print_dev_info(struct config_data *info, int bus, int dev, int func);$/;"	p	file:	signature:(struct config_data *info, int bus, int dev, int func)
+print_mode_info	src/vbe.c	/^void print_mode_info(struct vbe_mode_info *mi)$/;"	f	signature:(struct vbe_mode_info *mi)
+print_mode_info	src/vbe.h	/^void print_mode_info(struct vbe_mode_info *modei);$/;"	p	signature:(struct vbe_mode_info *modei)
+print_num	src/boot/boot.s	/^print_num:$/;"	l
+print_num	src/boot/boot2.s	/^print_num:$/;"	l
+print_str	src/boot/boot.s	/^print_str:$/;"	l
+printf	src/libc/stdio.c	/^int printf(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+printf	src/libc/stdio.h	/^int printf(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+proc_mouse_data	src/psaux.c	/^static void proc_mouse_data(unsigned char *data)$/;"	f	file:	signature:(unsigned char *data)
+proc_mouse_data	src/psaux.c	/^static void proc_mouse_data(unsigned char *data);$/;"	p	file:	signature:(unsigned char *data)
+prot_fault	src/boot/boot2.s	/^prot_fault:$/;"	l
+psaux_intr	src/psaux.c	/^static void psaux_intr()$/;"	f	file:
+psaux_intr	src/psaux.c	/^static void psaux_intr();$/;"	p	file:
+putchar	src/boot/boot2.s	/^putchar:$/;"	l
+putchar	src/libc/stdio.c	/^int putchar(int c)$/;"	f	signature:(int c)
+putchar	src/libc/stdio.h	/^int putchar(int c);$/;"	p	signature:(int c)
+puts	src/libc/stdio.c	/^int puts(const char *s)$/;"	f	signature:(const char *s)
+puts	src/libc/stdio.h	/^int puts(const char *s);$/;"	p	signature:(const char *s)
+putstr	src/boot/boot2.s	/^putstr:$/;"	l
+rbits	src/video.h	/^	int rbits, gbits, bbits;$/;"	m	struct:video_mode	access:public
+rdcyl_msg	src/boot/boot2.s	/^rdcyl_msg: .asciz " - cyl: "$/;"	l
+rdfail_msg	src/boot/boot2.s	/^rdfail_msg: .asciz "failed\\n"$/;"	l
+rdhead_msg	src/boot/boot2.s	/^rdhead_msg: .asciz " head: "$/;"	l
+rdlast_msg	src/boot/boot2.s	/^rdlast_msg: .asciz " ... "$/;"	l
+rdok_msg	src/boot/boot2.s	/^rdok_msg: .asciz "OK\\n"$/;"	l
+rdsect_msg	src/boot/boot2.s	/^rdsect_msg: .asciz " start sect: "$/;"	l
+rdtrk_msg	src/boot/boot2.s	/^rdtrk_msg: .asciz "Reading track: "$/;"	l
+read_dev_info	src/pci.c	/^static int read_dev_info(struct config_data *res, int bus, int dev, int func)$/;"	f	file:	signature:(struct config_data *res, int bus, int dev, int func)
+read_dev_info	src/pci.c	/^static int read_dev_info(struct config_data *res, int bus, int dev, int func);$/;"	p	file:	signature:(struct config_data *res, int bus, int dev, int func)
+read_fail	src/boot/boot.s	/^read_fail:$/;"	l
+read_fail	src/boot/boot2.s	/^read_fail:$/;"	l
+read_ok	src/boot/boot.s	/^read_ok:$/;"	l
+read_ok	src/boot/boot2.s	/^read_ok:$/;"	l
+read_retries	src/boot/boot2.s	/^read_retries: .short 0$/;"	l
+read_sector	src/boot/boot.s	/^read_sector:$/;"	l
+read_sectors	src/boot/boot.s	/^read_sectors:$/;"	l
+read_track	src/boot/boot2.s	/^read_track:$/;"	l
+read_try	src/boot/boot.s	/^read_try:$/;"	l
+read_try	src/boot/boot2.s	/^read_try:$/;"	l
+register__devzero_intr	src/test/vbetest.c	/^int register__devzero_intr(void)$/;"	f	signature:(void)
+register__devzero_intr	src/test/vbetest.h	/^int register__devzero_intr(void);$/;"	p	signature:(void)
+register_stack_intr	src/test/vbetest.c	/^int register_stack_intr(void)$/;"	f	signature:(void)
+register_stack_intr	src/test/vbetest.h	/^int register_stack_intr(void);$/;"	p	signature:(void)
+registers	src/intr.h	/^struct registers {$/;"	s
+registers::eax	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+registers::ebp	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+registers::ebx	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+registers::ecx	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+registers::edi	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+registers::edx	src/intr.h	/^	uint32_t ebx, edx, ecx, eax;$/;"	m	struct:registers	access:public
+registers::esi	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+registers::esp	src/intr.h	/^	uint32_t edi, esi, ebp, esp;$/;"	m	struct:registers	access:public
+regs	src/intr.h	/^	struct registers regs;$/;"	m	struct:intr_frame	typeref:struct:intr_frame::registers	access:public
+reserved	src/vbe.h	/^	uint8_t reserved[222];$/;"	m	struct:vbe_info	access:public
+reserved1	src/pci.c	/^	uint32_t reserved1, reserved2;$/;"	m	struct:config_data	file:	access:public
+reserved1	src/vbe.h	/^	uint8_t reserved1;$/;"	m	struct:vbe_mode_info	access:public
+reserved2	src/pci.c	/^	uint32_t reserved1, reserved2;$/;"	m	struct:config_data	file:	access:public
+reserved2	src/vbe.h	/^	uint32_t reserved2;$/;"	m	struct:vbe_mode_info	access:public
+reserved3	src/vbe.h	/^	uint16_t reserved3;$/;"	m	struct:vbe_mode_info	access:public
+reserved4	src/vbe.h	/^	uint8_t reserved4[206];$/;"	m	struct:vbe_mode_info	access:public
+rev	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+rmask	src/video.h	/^	unsigned int rmask, gmask, bmask;$/;"	m	struct:video_mode	access:public
+rmask_size	src/vbe.h	/^	uint8_t rmask_size, rpos;$/;"	m	struct:vbe_mode_info	access:public
+rmidt	src/boot/boot2.s	/^rmidt:	.short 0x3ff$/;"	l
+rom_addr	src/pci.c	/^	uint32_t rom_addr;$/;"	m	struct:config_data	file:	access:public
+rpos	src/vbe.h	/^	uint8_t rmask_size, rpos;$/;"	m	struct:vbe_mode_info	access:public
+rshift	src/video.h	/^	int rshift, gshift, bshift;$/;"	m	struct:video_mode	access:public
+saved_ds	src/boot/boot2.s	/^saved_ds: .word 0$/;"	l
+saved_eax	src/boot/boot2.s	/^saved_eax: .long 0$/;"	l
+saved_ebp	src/boot/boot2.s	/^saved_ebp: .long 0$/;"	l
+saved_es	src/boot/boot2.s	/^saved_es: .word 0$/;"	l
+saved_esp	src/boot/boot2.s	/^saved_esp: .long 0$/;"	l
+saved_idtr	src/boot/boot2.s	/^saved_idtr:$/;"	l
+scanline_bytes	src/vbe.h	/^	uint16_t scanline_bytes;$/;"	m	struct:vbe_mode_info	access:public
+scantbl	src/keyb.c	/^static int scantbl[] = {$/;"	v	file:
+scroll	src/contty.c	/^static void scroll(void)$/;"	f	file:	signature:(void)
+scroll	src/contty.c	/^static void scroll(void);$/;"	p	file:	signature:(void)
+scrollup	src/boot/boot2.s	/^scrollup:$/;"	l
+sect_left	src/boot/boot2.s	/^sect_left: .long 0$/;"	l
+sect_per_track	src/boot/boot.s	/^sect_per_track: .short 18$/;"	l
+seg	src/segm_asm.s	/^seg:	.short 0$/;"	l
+segm_desc	src/segm.c	/^static void segm_desc(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type)$/;"	f	file:	signature:(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type)
+segm_desc	src/segm.c	/^static void segm_desc(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type);$/;"	p	file:	signature:(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type)
+segm_desc16	src/segm.c	/^static void segm_desc16(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type)$/;"	f	file:	signature:(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type)
+segm_desc16	src/segm.c	/^static void segm_desc16(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type);$/;"	p	file:	signature:(desc_t *desc, uint32_t base, uint32_t limit, int dpl, int type)
+selector	src/segm.c	/^uint16_t selector(int idx, int rpl)$/;"	f	signature:(int idx, int rpl)
+selector	src/segm.h	/^uint16_t selector(int idx, int rpl);$/;"	p	signature:(int idx, int rpl)
+ser_block	src/serial.c	/^int ser_block(int fd)$/;"	f	signature:(int fd)
+ser_block	src/serial.h	/^int ser_block(int fd);$/;"	p	signature:(int fd)
+ser_close	src/serial.c	/^void ser_close(int fd)$/;"	f	signature:(int fd)
+ser_close	src/serial.h	/^void ser_close(int fd);$/;"	p	signature:(int fd)
+ser_getc	src/serial.c	/^int ser_getc(int fd)$/;"	f	signature:(int fd)
+ser_getc	src/serial.h	/^int ser_getc(int fd);$/;"	p	signature:(int fd)
+ser_getline	src/serial.c	/^char *ser_getline(int fd, char *buf, int bsz)$/;"	f	signature:(int fd, char *buf, int bsz)
+ser_getline	src/serial.h	/^char *ser_getline(int fd, char *buf, int bsz);$/;"	p	signature:(int fd, char *buf, int bsz)
+ser_nonblock	src/serial.c	/^int ser_nonblock(int fd)$/;"	f	signature:(int fd)
+ser_nonblock	src/serial.h	/^int ser_nonblock(int fd);$/;"	p	signature:(int fd)
+ser_open	src/serial.c	/^int ser_open(int pidx, int baud, unsigned int mode)$/;"	f	signature:(int pidx, int baud, unsigned int mode)
+ser_open	src/serial.h	/^int ser_open(int pidx, int baud, unsigned int mode);$/;"	p	signature:(int pidx, int baud, unsigned int mode)
+ser_pending	src/serial.c	/^int ser_pending(int fd)$/;"	f	signature:(int fd)
+ser_pending	src/serial.h	/^int ser_pending(int fd);$/;"	p	signature:(int fd)
+ser_printf	src/libc/stdio.c	/^int ser_printf(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+ser_printf	src/libc/stdio.h	/^int ser_printf(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+ser_putc	src/serial.c	/^void ser_putc(int fd, char c)$/;"	f	signature:(int fd, char c)
+ser_putc	src/serial.h	/^void ser_putc(int fd, char c);$/;"	p	signature:(int fd, char c)
+ser_putchar	src/boot/boot.s	/^ser_putchar:$/;"	l
+ser_putchar	src/boot/boot2.s	/^ser_putchar:$/;"	l
+ser_putchar	src/serial.h	41;"	d
+ser_read	src/serial.c	/^int ser_read(int fd, char *buf, int count)$/;"	f	signature:(int fd, char *buf, int count)
+ser_read	src/serial.h	/^int ser_read(int fd, char *buf, int count);$/;"	p	signature:(int fd, char *buf, int count)
+ser_vprintf	src/libc/stdio.c	/^int ser_vprintf(const char *fmt, va_list ap)$/;"	f	signature:(const char *fmt, va_list ap)
+ser_vprintf	src/libc/stdio.h	/^int ser_vprintf(const char *fmt, va_list ap);$/;"	p	signature:(const char *fmt, va_list ap)
+ser_wait	src/serial.c	/^int ser_wait(int fd, long msec)$/;"	f	signature:(int fd, long msec)
+ser_wait	src/serial.h	/^int ser_wait(int fd, long msec);$/;"	p	signature:(int fd, long msec)
+ser_write	src/serial.c	/^int ser_write(int fd, const char *buf, int count)$/;"	f	signature:(int fd, const char *buf, int count)
+ser_write	src/serial.h	/^int ser_write(int fd, const char *buf, int count);$/;"	p	signature:(int fd, const char *buf, int count)
+serial_port	src/serial.c	/^struct serial_port {$/;"	s	file:
+serial_port::base	src/serial.c	/^	int base, intr;$/;"	m	struct:serial_port	file:	access:public
+serial_port::blocking	src/serial.c	/^	int blocking;$/;"	m	struct:serial_port	file:	access:public
+serial_port::inbuf	src/serial.c	/^	char inbuf[256];$/;"	m	struct:serial_port	file:	access:public
+serial_port::inbuf_ridx	src/serial.c	/^	int inbuf_ridx, inbuf_widx;$/;"	m	struct:serial_port	file:	access:public
+serial_port::inbuf_widx	src/serial.c	/^	int inbuf_ridx, inbuf_widx;$/;"	m	struct:serial_port	file:	access:public
+serial_port::intr	src/serial.c	/^	int base, intr;$/;"	m	struct:serial_port	file:	access:public
+set_gdt	src/segm.c	/^void set_gdt(uint32_t addr, uint16_t limit);$/;"	p	file:	signature:(uint32_t addr, uint16_t limit)
+set_gdt	src/segm_asm.s	/^set_gdt:$/;"	l
+set_idt	src/intr.c	/^void set_idt(uint32_t addr, uint16_t limit);$/;"	p	file:	signature:(uint32_t addr, uint16_t limit)
+set_idt	src/intr_asm.S	/^set_idt:$/;"	l
+set_intr_entry	src/intr.c	/^void set_intr_entry(int num, void (*handler)(void))$/;"	f	signature:(int num, void (*handler)(void))
+set_intr_entry	src/intr.h	/^void set_intr_entry(int num, void (*handler)(void));$/;"	p	signature:(int num, void (*handler)(void))
+set_intr_flag	src/intr.h	/^void set_intr_flag(int onoff);$/;"	p	signature:(int onoff)
+set_intr_flag	src/intr_asm.S	/^set_intr_flag:$/;"	l
+set_mouse_bounds	src/psaux.c	/^void set_mouse_bounds(int x0, int y0, int x1, int y1)$/;"	f	signature:(int x0, int y0, int x1, int y1)
+set_mouse_bounds	src/psaux.h	/^void set_mouse_bounds(int x0, int y0, int x1, int y1);$/;"	p	signature:(int x0, int y0, int x1, int y1)
+set_task_reg	src/segm.c	/^void set_task_reg(uint16_t tss_selector);$/;"	p	file:	signature:(uint16_t tss_selector)
+set_task_reg	src/segm_asm.s	/^set_task_reg:$/;"	l
+set_tss	src/segm.c	/^void set_tss(uint32_t addr)$/;"	f	signature:(uint32_t addr)
+set_tss	src/segm.h	/^void set_tss(uint32_t addr);$/;"	p	signature:(uint32_t addr)
+set_vga_mode	src/video.c	/^void set_vga_mode(int mode)$/;"	f	signature:(int mode)
+set_vga_mode	src/video.h	/^void set_vga_mode(int mode);$/;"	p	signature:(int mode)
+set_video_mode	src/video.c	/^void *set_video_mode(int mode)$/;"	f	signature:(int mode)
+set_video_mode	src/video.h	/^void *set_video_mode(int mode);$/;"	p	signature:(int mode)
+setup_selectors	src/segm.c	/^void setup_selectors(uint16_t code, uint16_t data);$/;"	p	file:	signature:(uint16_t code, uint16_t data)
+setup_selectors	src/segm_asm.s	/^setup_selectors:$/;"	l
+setup_serial	src/boot/boot.s	/^setup_serial:$/;"	l
+sig	src/vbe.h	/^	uint8_t sig[4];$/;"	m	struct:vbe_info	access:public
+sintab	src/startup.s	/^sintab:$/;"	l
+size	src/libc/malloc.c	/^	size_t size;$/;"	m	struct:mem_desc	file:	access:public
+size	src/mem.c	/^	uint32_t size;$/;"	m	struct:mem_range	file:	access:public
+size_t	src/libc/stdlib.h	/^typedef uint32_t size_t;$/;"	t
+skip_bss_zero	src/startup.s	/^skip_bss_zero:$/;"	l
+sleep	src/timer.h	/^void sleep(unsigned long msec);$/;"	p	signature:(unsigned long msec)
+snprintf	src/libc/stdio.c	/^int snprintf(char *buf, size_t sz, const char *fmt, ...)$/;"	f	signature:(char *buf, size_t sz, const char *fmt, ...)
+snprintf	src/libc/stdio.h	/^int snprintf(char *buf, size_t sz, const char *fmt, ...);$/;"	p	signature:(char *buf, size_t sz, const char *fmt, ...)
+sprintf	src/libc/stdio.c	/^int sprintf(char *buf, const char *fmt, ...)$/;"	f	signature:(char *buf, const char *fmt, ...)
+sprintf	src/libc/stdio.h	/^int sprintf(char *buf, const char *fmt, ...);$/;"	p	signature:(char *buf, const char *fmt, ...)
+ss	src/panic.c	/^	uint32_t cs, ss, ds, es, fs, gs;$/;"	m	struct:all_registers	file:	access:public
+ss	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+ss0	src/tss.h	/^	uint32_t esp0, ss0;	\/* we only ever set these two values *\/$/;"	m	struct:task_state	access:public
+ss1	src/tss.h	/^	uint32_t esp1, ss1;$/;"	m	struct:task_state	access:public
+ss2	src/tss.h	/^	uint32_t esp2, ss2;$/;"	m	struct:task_state	access:public
+ssize_t	src/libc/stdlib.h	/^typedef int32_t ssize_t;$/;"	t
+ssrc	Makefile	/^ssrc = $(wildcard src\/*.s) $(wildcard src\/libc\/*.s) $(wildcard src\/boot\/*.s)$/;"	m
+stackerr	src/test/vbetest.c	/^int stackerr(void)$/;"	f	signature:(void)
+stackerr	src/test/vbetest.h	/^int stackerr(void);$/;"	p	signature:(void)
+stackerr_handler	src/test/vbetest.c	/^static void stackerr_handler(void)$/;"	f	file:	signature:(void)
+start	src/mem.c	/^	uint32_t start;$/;"	m	struct:mem_range	file:	access:public
+start_line	src/contty.c	/^static int start_line;$/;"	v	file:
+status	src/pci.c	/^	uint16_t cmd, status;$/;"	m	struct:config_data	file:	access:public
+str_read_error	src/boot/boot.s	/^str_read_error: .asciz "rderr:"$/;"	l
+str_read_error	src/boot/boot2.s	/^str_read_error: .asciz "Read error while reading track: "$/;"	l
+strchr	src/libc/string.c	/^char *strchr(const char *s, int c)$/;"	f	signature:(const char *s, int c)
+strchr	src/libc/string.h	/^char *strchr(const char *s, int c);$/;"	p	signature:(const char *s, int c)
+strcmp	src/libc/string.c	/^int strcmp(const char *s1, const char *s2)$/;"	f	signature:(const char *s1, const char *s2)
+strcmp	src/libc/string.h	/^int strcmp(const char *s1, const char *s2);$/;"	p	signature:(const char *s1, const char *s2)
+strlen	src/libc/string.c	/^size_t strlen(const char *s)$/;"	f	signature:(const char *s)
+strlen	src/libc/string.h	/^size_t strlen(const char *s);$/;"	p	signature:(const char *s)
+strrchr	src/libc/string.c	/^char *strrchr(const char *s, int c)$/;"	f	signature:(const char *s, int c)
+strrchr	src/libc/string.h	/^char *strrchr(const char *s, int c);$/;"	p	signature:(const char *s, int c)
+strstr	src/libc/string.c	/^char *strstr(const char *str, const char *substr)$/;"	f	signature:(const char *str, const char *substr)
+strstr	src/libc/string.h	/^char *strstr(const char *str, const char *substr);$/;"	p	signature:(const char *str, const char *substr)
+strtol	src/libc/stdlib.c	/^long strtol(const char *str, char **endp, int base)$/;"	f	signature:(const char *str, char **endp, int base)
+strtol	src/libc/stdlib.h	/^long strtol(const char *str, char **endp, int base);$/;"	p	signature:(const char *str, char **endp, int base)
+subclass	src/pci.c	/^	uint8_t rev, iface, subclass, class;$/;"	m	struct:config_data	file:	access:public
+subclass_str	src/pci.c	/^static const char *subclass_str(int cc, int sub)$/;"	f	file:	signature:(int cc, int sub)
+subclass_str	src/pci.c	/^static const char *subclass_str(int cc, int sub);$/;"	p	file:	signature:(int cc, int sub)
+subsys	src/pci.c	/^	uint16_t subsys;$/;"	m	struct:config_data	file:	access:public
+subsys_vendor	src/pci.c	/^	uint16_t subsys_vendor;$/;"	m	struct:config_data	file:	access:public
+sys_sleep	src/timer.h	/^int sys_sleep(int sec);$/;"	p	signature:(int sec)
+task_desc	src/segm.c	/^static void task_desc(desc_t *desc, uint32_t base, uint32_t limit, int dpl)$/;"	f	file:	signature:(desc_t *desc, uint32_t base, uint32_t limit, int dpl)
+task_desc	src/segm.c	/^static void task_desc(desc_t *desc, uint32_t base, uint32_t limit, int dpl);$/;"	p	file:	signature:(desc_t *desc, uint32_t base, uint32_t limit, int dpl)
+task_state	src/tss.h	/^struct task_state {$/;"	s
+task_state::cr3	src/tss.h	/^	uint32_t cr3;$/;"	m	struct:task_state	access:public
+task_state::cs	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+task_state::ds	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+task_state::eax	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+task_state::ebp	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+task_state::ebx	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+task_state::ecx	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+task_state::edi	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+task_state::edx	src/tss.h	/^	uint32_t eax, ecx, edx, ebx;$/;"	m	struct:task_state	access:public
+task_state::eflags	src/tss.h	/^	uint32_t eflags;$/;"	m	struct:task_state	access:public
+task_state::eip	src/tss.h	/^	uint32_t eip;$/;"	m	struct:task_state	access:public
+task_state::es	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+task_state::esi	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+task_state::esp	src/tss.h	/^	uint32_t esp, ebp, esi, edi;$/;"	m	struct:task_state	access:public
+task_state::esp0	src/tss.h	/^	uint32_t esp0, ss0;	\/* we only ever set these two values *\/$/;"	m	struct:task_state	access:public
+task_state::esp1	src/tss.h	/^	uint32_t esp1, ss1;$/;"	m	struct:task_state	access:public
+task_state::esp2	src/tss.h	/^	uint32_t esp2, ss2;$/;"	m	struct:task_state	access:public
+task_state::fs	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+task_state::gs	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+task_state::iomap_addr	src/tss.h	/^	uint16_t trap, iomap_addr;$/;"	m	struct:task_state	access:public
+task_state::ldt_sel	src/tss.h	/^	uint32_t ldt_sel;$/;"	m	struct:task_state	access:public
+task_state::prev_task	src/tss.h	/^	uint32_t prev_task;$/;"	m	struct:task_state	access:public
+task_state::ss	src/tss.h	/^	uint32_t es, cs, ss, ds, fs, gs;$/;"	m	struct:task_state	access:public
+task_state::ss0	src/tss.h	/^	uint32_t esp0, ss0;	\/* we only ever set these two values *\/$/;"	m	struct:task_state	access:public
+task_state::ss1	src/tss.h	/^	uint32_t esp1, ss1;$/;"	m	struct:task_state	access:public
+task_state::ss2	src/tss.h	/^	uint32_t esp2, ss2;$/;"	m	struct:task_state	access:public
+task_state::trap	src/tss.h	/^	uint16_t trap, iomap_addr;$/;"	m	struct:task_state	access:public
+test_a20	src/boot/boot2.s	/^test_a20:$/;"	l
+timer_event	src/timer.c	/^struct timer_event {$/;"	s	file:
+timer_event::dt	src/timer.c	/^	int dt;	\/* remaining ticks delta from the previous event *\/$/;"	m	struct:timer_event	file:	access:public
+timer_event::next	src/timer.c	/^	struct timer_event *next;$/;"	m	struct:timer_event	typeref:struct:timer_event::timer_event	file:	access:public
+tolower	src/libc/ctype.c	/^int tolower(int c)$/;"	f	signature:(int c)
+tolower	src/libc/ctype.h	/^int tolower(int c);$/;"	p	signature:(int c)
+total_mem	src/vbe.h	/^	uint16_t total_mem;			\/* num of 64k mem blocks *\/$/;"	m	struct:vbe_info	access:public
+toupper	src/libc/ctype.c	/^int toupper(int c)$/;"	f	signature:(int c)
+toupper	src/libc/ctype.h	/^int toupper(int c);$/;"	p	signature:(int c)
+trap	src/tss.h	/^	uint16_t trap, iomap_addr;$/;"	m	struct:task_state	access:public
+trk_sect	src/boot/boot2.s	/^trk_sect: .long 0$/;"	l
+txattr	src/contty.c	/^static unsigned char txattr = 0x07;$/;"	v	file:
+uart_base	src/serial.c	/^static int uart_base[] = {UART1_BASE, UART2_BASE};$/;"	v	file:
+uint16_t	src/libc/inttypes.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	src/libc/inttypes.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	src/libc/inttypes.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	src/libc/inttypes.h	/^typedef unsigned char uint8_t;$/;"	t
+unreal	src/boot/boot2.s	/^unreal:$/;"	l
+utoa	src/libc/stdlib.c	/^void utoa(unsigned int val, char *buf, int base)$/;"	f	signature:(unsigned int val, char *buf, int base)
+utoa	src/libc/stdlib.h	/^void utoa(unsigned int val, char *buf, int base);$/;"	p	signature:(unsigned int val, char *buf, int base)
+va_arg	src/libc/stdarg.h	26;"	d
+va_end	src/libc/stdarg.h	27;"	d
+va_list	src/libc/stdarg.h	/^typedef int* va_list;$/;"	t
+va_start	src/libc/stdarg.h	25;"	d
+vbe_get_info	src/vbe.c	/^struct vbe_info *vbe_get_info(void)$/;"	f	signature:(void)
+vbe_get_info	src/vbe.h	/^struct vbe_info *vbe_get_info(void);$/;"	p	signature:(void)
+vbe_get_mode_info	src/vbe.c	/^struct vbe_mode_info *vbe_get_mode_info(int mode)$/;"	f	signature:(int mode)
+vbe_get_mode_info	src/vbe.h	/^struct vbe_mode_info *vbe_get_mode_info(int mode);$/;"	p	signature:(int mode)
+vbe_info	src/vbe.h	/^struct vbe_info {$/;"	s
+vbe_info	src/video.c	/^static struct vbe_info *vbe_info;$/;"	v	typeref:struct:vbe_info	file:
+vbe_info::caps	src/vbe.h	/^	uint8_t caps[4];			\/* capabilities *\/$/;"	m	struct:vbe_info	access:public
+vbe_info::oem_data	src/vbe.h	/^	uint8_t oem_data[256];$/;"	m	struct:vbe_info	access:public
+vbe_info::oem_product_name_ptr	src/vbe.h	/^	uint32_t oem_product_name_ptr;$/;"	m	struct:vbe_info	access:public
+vbe_info::oem_product_rev_ptr	src/vbe.h	/^	uint32_t oem_product_rev_ptr;$/;"	m	struct:vbe_info	access:public
+vbe_info::oem_str_ptr	src/vbe.h	/^	uint32_t oem_str_ptr;$/;"	m	struct:vbe_info	access:public
+vbe_info::oem_sw_rev	src/vbe.h	/^	uint16_t oem_sw_rev;		\/* VBE implementation software revision *\/$/;"	m	struct:vbe_info	access:public
+vbe_info::oem_vendor_name_ptr	src/vbe.h	/^	uint32_t oem_vendor_name_ptr;$/;"	m	struct:vbe_info	access:public
+vbe_info::reserved	src/vbe.h	/^	uint8_t reserved[222];$/;"	m	struct:vbe_info	access:public
+vbe_info::sig	src/vbe.h	/^	uint8_t sig[4];$/;"	m	struct:vbe_info	access:public
+vbe_info::total_mem	src/vbe.h	/^	uint16_t total_mem;			\/* num of 64k mem blocks *\/$/;"	m	struct:vbe_info	access:public
+vbe_info::version	src/vbe.h	/^	uint16_t version;$/;"	m	struct:vbe_info	access:public
+vbe_info::vid_mode_ptr	src/vbe.h	/^	uint32_t vid_mode_ptr;		\/* vbefarptr to video mode list *\/$/;"	m	struct:vbe_info	access:public
+vbe_mode_info	src/vbe.h	/^struct vbe_mode_info {$/;"	s
+vbe_mode_info::bank_size	src/vbe.h	/^	uint8_t bank_size;		\/* bank size in KB *\/$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::bmask_size	src/vbe.h	/^	uint8_t bmask_size, bpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::bpos	src/vbe.h	/^	uint8_t bmask_size, bpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::bpp	src/vbe.h	/^	uint8_t bpp;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::cmode_info	src/vbe.h	/^	uint8_t cmode_info;		\/* direct color mode attributes *\/$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::fb_addr	src/vbe.h	/^	uint32_t fb_addr;		\/* physical address of the linear framebuffer *\/$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::gmask_size	src/vbe.h	/^	uint8_t gmask_size, gpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::gpos	src/vbe.h	/^	uint8_t gmask_size, gpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::mem_model	src/vbe.h	/^	uint8_t mem_model;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::mode_attr	src/vbe.h	/^	uint16_t mode_attr;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::num_banks	src/vbe.h	/^	uint8_t num_banks;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::num_img_pages	src/vbe.h	/^	uint8_t num_img_pages;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::num_planes	src/vbe.h	/^	uint8_t num_planes;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::reserved1	src/vbe.h	/^	uint8_t reserved1;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::reserved2	src/vbe.h	/^	uint32_t reserved2;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::reserved3	src/vbe.h	/^	uint16_t reserved3;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::reserved4	src/vbe.h	/^	uint8_t reserved4[206];$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::rmask_size	src/vbe.h	/^	uint8_t rmask_size, rpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::rpos	src/vbe.h	/^	uint8_t rmask_size, rpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::scanline_bytes	src/vbe.h	/^	uint16_t scanline_bytes;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::win_func	src/vbe.h	/^	uint32_t win_func;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::win_gran	src/vbe.h	/^	uint16_t win_gran, win_size;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::win_size	src/vbe.h	/^	uint16_t win_gran, win_size;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::wina_attr	src/vbe.h	/^	uint8_t wina_attr, winb_attr;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::wina_seg	src/vbe.h	/^	uint16_t wina_seg, winb_seg;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::winb_attr	src/vbe.h	/^	uint8_t wina_attr, winb_attr;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::winb_seg	src/vbe.h	/^	uint16_t wina_seg, winb_seg;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::xcharsz	src/vbe.h	/^	uint8_t xcharsz, ycharsz;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::xmask_size	src/vbe.h	/^	uint8_t xmask_size, xpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::xpos	src/vbe.h	/^	uint8_t xmask_size, xpos;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::xres	src/vbe.h	/^	uint16_t xres, yres;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::ycharsz	src/vbe.h	/^	uint8_t xcharsz, ycharsz;$/;"	m	struct:vbe_mode_info	access:public
+vbe_mode_info::yres	src/vbe.h	/^	uint16_t xres, yres;$/;"	m	struct:vbe_mode_info	access:public
+vbe_set_mode	src/vbe.c	/^int vbe_set_mode(int mode)$/;"	f	signature:(int mode)
+vbe_set_mode	src/vbe.h	/^int vbe_set_mode(int mode);$/;"	p	signature:(int mode)
+vbetest	src/test/vbetest.c	/^int vbetest(void)$/;"	f	signature:(void)
+vbetest	src/test/vbetest.h	/^int vbetest(void);$/;"	p	signature:(void)
+vendor	src/pci.c	/^	uint16_t vendor, device;$/;"	m	struct:config_data	file:	access:public
+version	src/vbe.h	/^	uint16_t version;$/;"	m	struct:vbe_info	access:public
+vid_mode_ptr	src/vbe.h	/^	uint32_t vid_mode_ptr;		\/* vbefarptr to video mode list *\/$/;"	m	struct:vbe_info	access:public
+video_mode	src/video.h	/^struct video_mode {$/;"	s
+video_mode::bbits	src/video.h	/^	int rbits, gbits, bbits;$/;"	m	struct:video_mode	access:public
+video_mode::bmask	src/video.h	/^	unsigned int rmask, gmask, bmask;$/;"	m	struct:video_mode	access:public
+video_mode::bpp	src/video.h	/^	int bpp;$/;"	m	struct:video_mode	access:public
+video_mode::bshift	src/video.h	/^	int rshift, gshift, bshift;$/;"	m	struct:video_mode	access:public
+video_mode::gbits	src/video.h	/^	int rbits, gbits, bbits;$/;"	m	struct:video_mode	access:public
+video_mode::gmask	src/video.h	/^	unsigned int rmask, gmask, bmask;$/;"	m	struct:video_mode	access:public
+video_mode::gshift	src/video.h	/^	int rshift, gshift, bshift;$/;"	m	struct:video_mode	access:public
+video_mode::height	src/video.h	/^	int width, height;$/;"	m	struct:video_mode	access:public
+video_mode::mode	src/video.h	/^	int mode;$/;"	m	struct:video_mode	access:public
+video_mode::rbits	src/video.h	/^	int rbits, gbits, bbits;$/;"	m	struct:video_mode	access:public
+video_mode::rmask	src/video.h	/^	unsigned int rmask, gmask, bmask;$/;"	m	struct:video_mode	access:public
+video_mode::rshift	src/video.h	/^	int rshift, gshift, bshift;$/;"	m	struct:video_mode	access:public
+video_mode::width	src/video.h	/^	int width, height;$/;"	m	struct:video_mode	access:public
+video_mode_count	src/video.c	/^int video_mode_count(void)$/;"	f	signature:(void)
+video_mode_count	src/video.h	/^int video_mode_count(void);$/;"	p	signature:(void)
+video_mode_info	src/video.c	/^int video_mode_info(int n, struct video_mode *vid)$/;"	f	signature:(int n, struct video_mode *vid)
+video_mode_info	src/video.h	/^int video_mode_info(int n, struct video_mode *vid);$/;"	p	signature:(int n, struct video_mode *vid)
+video_newline	src/boot/boot2.s	/^video_newline:$/;"	l
+vprintf	src/libc/stdio.c	/^int vprintf(const char *fmt, va_list ap)$/;"	f	signature:(const char *fmt, va_list ap)
+vprintf	src/libc/stdio.h	/^int vprintf(const char *fmt, va_list ap);$/;"	p	signature:(const char *fmt, va_list ap)
+vsnprintf	src/libc/stdio.c	/^int vsnprintf(char *buf, size_t sz, const char *fmt, va_list ap)$/;"	f	signature:(char *buf, size_t sz, const char *fmt, va_list ap)
+vsnprintf	src/libc/stdio.h	/^int vsnprintf(char *buf, size_t sz, const char *fmt, va_list ap);$/;"	p	signature:(char *buf, size_t sz, const char *fmt, va_list ap)
+vsprintf	src/libc/stdio.c	/^int vsprintf(char *buf, const char *fmt, va_list ap)$/;"	f	signature:(char *buf, const char *fmt, va_list ap)
+vsprintf	src/libc/stdio.h	/^int vsprintf(char *buf, const char *fmt, va_list ap);$/;"	p	signature:(char *buf, const char *fmt, va_list ap)
+wait	src/boot/boot.s	/^wait:	in %dx, %al$/;"	l
+wait	src/boot/boot2.s	/^wait:	in %dx, %al$/;"	l
+wait_vsync	src/video.h	/^void wait_vsync(void);$/;"	p	signature:(void)
+wait_vsync	src/video_asm.s	/^wait_vsync:$/;"	l
+warn	Makefile	/^warn = -pedantic -Wall$/;"	m
+width	src/video.h	/^	int width, height;$/;"	m	struct:video_mode	access:public
+win_func	src/vbe.h	/^	uint32_t win_func;$/;"	m	struct:vbe_mode_info	access:public
+win_gran	src/vbe.h	/^	uint16_t win_gran, win_size;$/;"	m	struct:vbe_mode_info	access:public
+win_size	src/vbe.h	/^	uint16_t win_gran, win_size;$/;"	m	struct:vbe_mode_info	access:public
+wina_attr	src/vbe.h	/^	uint8_t wina_attr, winb_attr;$/;"	m	struct:vbe_mode_info	access:public
+wina_seg	src/vbe.h	/^	uint16_t wina_seg, winb_seg;$/;"	m	struct:vbe_mode_info	access:public
+winb_attr	src/vbe.h	/^	uint8_t wina_attr, winb_attr;$/;"	m	struct:vbe_mode_info	access:public
+winb_seg	src/vbe.h	/^	uint16_t wina_seg, winb_seg;$/;"	m	struct:vbe_mode_info	access:public
+x88_fail	src/boot/boot2.s	/^x88_fail:$/;"	l
+xcharsz	src/vbe.h	/^	uint8_t xcharsz, ycharsz;$/;"	m	struct:vbe_mode_info	access:public
+xloop	src/startup.s	/^xloop:$/;"	l
+xmask_size	src/vbe.h	/^	uint8_t xmask_size, xpos;$/;"	m	struct:vbe_mode_info	access:public
+xpos	src/vbe.h	/^	uint8_t xmask_size, xpos;$/;"	m	struct:vbe_mode_info	access:public
+xres	src/vbe.h	/^	uint16_t xres, yres;$/;"	m	struct:vbe_mode_info	access:public
+xval	src/startup.s	/^xval: .long 0$/;"	l
+ycharsz	src/vbe.h	/^	uint8_t xcharsz, ycharsz;$/;"	m	struct:vbe_mode_info	access:public
+yloop	src/startup.s	/^yloop:$/;"	l
+yres	src/vbe.h	/^	uint16_t xres, yres;$/;"	m	struct:vbe_mode_info	access:public
+yval	src/startup.s	/^yval: .long 0$/;"	l
